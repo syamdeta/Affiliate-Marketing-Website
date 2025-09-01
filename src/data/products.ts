@@ -1,0 +1,960 @@
+export interface Product {
+  id: string;
+  name: string;
+  description: string;
+  // price: number;
+  // originalPrice?: number;
+  image: string;
+  rating: number;
+  reviews: number | null;
+  category: string;
+  tags: string[];
+  affiliateUrl: string;
+  features: string[];
+  inStock: boolean;
+}
+
+export const products: Product[] = [
+  {
+  id: "42",
+  name: "Verilux® Pendrive 128GB 4 in 1 Flash Drive",
+  description: "A versatile 4-in-1 flash drive with Lightning, Micro USB, USB-A, and Type-C interfaces, offering 128GB of storage for iOS, Android, and PC devices.",
+  image: "https://m.media-amazon.com/images/I/510ED46K8pL._SL1200_.jpg",
+  rating: 4.5,
+  reviews: null,
+  category: "Electronics",
+  tags: ["pendrive", "flash drive", "128gb", "4-in-1", "storage"],
+  affiliateUrl: "https://amzn.to/3JJXDRo",
+  features: [
+    "128GB storage capacity",
+    "4-in-1 interface: Lightning, Micro USB, USB A, Type-C",
+    "Compatible with iPhone, iPad, Android, PC",
+    "Mini hangable design"
+  ],
+  inStock: true
+  },
+  {
+    id: "41",
+    name: "Bathla Mobidry Flex Foldable Cloth Drying Stand",
+    description: "A heavy-duty, lightweight and foldable cloth drying stand with 17 drying rails, offering 42 feet of drying length. Comes with a 2-year warranty.",
+    image: "https://m.media-amazon.com/images/I/71cYdQxdwGL._UF894,1000_QL80_FMwebp_.jpg",
+    rating: 4.5,
+    reviews: null,
+    category: "Home & Kitchen",
+    tags: ["cloth drying stand", "foldable", "laundry"],
+    affiliateUrl: "https://amzn.to/41rL6Iv",
+    features: [
+      "3-way folding design",
+      "17 drying rails",
+      "42 feet drying length",
+      "Heavy-duty & lightweight",
+      "2-year warranty"
+    ],
+    inStock: true
+  },
+  {
+    id: "40",
+    name: "Portronics Clean N 19 in 1 Smart Gadget Cleaning Kit",
+    description: "A comprehensive 19-in-1 cleaning kit for smartphones, tablets, laptops, and earbuds. Keeps all your gadgets spotless.",
+    image: "https://m.media-amazon.com/images/I/61hi+-Ag87L._UF1000,1000_QL80_FMwebp_.jpg",
+    rating: 4.2,
+    reviews: null,
+    category: "Electronics",
+    tags: ["cleaning kit", "gadget", "electronics", "accessories"],
+    affiliateUrl: "https://amzn.to/4lPTdpm",
+    features: [
+      "19 different tools",
+      "For smartphones, tablets, laptops, earbuds",
+      "All-in-one solution",
+      "Compact design"
+    ],
+    inStock: true
+  },
+  {
+    id: "39",
+    name: "TE Push Stapler 2 Pack",
+    description: "A pack of two mini push staplers with 100 reusable clips. A convenient, clip-based alternative to traditional staplers for office, school, and home use.",
+    image: "https://m.media-amazon.com/images/I/71YoQ4uf9BL._UF894,1000_QL80_FMwebp_.jpg",
+    rating: 4.0,
+    reviews: null,
+    category: "Office & School Supplies",
+    tags: ["stapler", "paper clamps", "office", "school"],
+    affiliateUrl: "https://amzn.to/3HV3yCE",
+    features: [
+      "2-pack mini staplers",
+      "Includes 100 reusable clips",
+      "Binder clip dispenser",
+      "For documents and home supplies"
+    ],
+    inStock: true
+  },
+  {
+    id: "38",
+    name: "Amazon Basics Expanding File Folder with 13 Pockets",
+    description: "An expanding file folder with 13 pockets to organize letter and A4 size documents. Made by Amazon Basics.",
+    image: "https://m.media-amazon.com/images/I/61h1s3iyLtL._UF1000,1000_QL80_FMwebp_.jpg",
+    rating: 4.6,
+    reviews: null,
+    category: "Office & School Supplies",
+    tags: ["file folder", "document organizer", "amazon basics"],
+    affiliateUrl: "https://amzn.to/4lQDVAX",
+    features: [
+      "13 pockets",
+      "Fits letter and A4 size documents",
+      "Durable black design"
+    ],
+    inStock: true
+  },
+  {
+    id: "37",
+    name: "InstaCuppa Electric Chopper for Kitchen Use with 3 Attachments",
+    description: "A 300W electric chopper with a 2-litre stainless steel mincer, perfect for vegetables and meat. Includes garlic peeler and egg whisker attachments.",
+    image: "https://m.media-amazon.com/images/I/61EognUyqAL._UF894,1000_QL80_FMwebp_.jpg",
+    rating: 4.4,
+    reviews: null,
+    category: "Home & Kitchen",
+    tags: ["chopper", "electric", "kitchen appliance", "meat mincer"],
+    affiliateUrl: "https://amzn.to/3JRwtYQ",
+    features: [
+      "2-litre stainless steel bowl",
+      "300W powerful motor",
+      "Includes garlic peeler and egg whisker",
+      "Multi-purpose for meat and vegetables"
+    ],
+    inStock: true
+  },
+  {
+    id: "36",
+    name: "ULTRAMAC® 24 inch 3mm Acrylic TV Screen Guard",
+    description: "A 3mm thick acrylic screen guard for 24-inch TVs. Provides 9H hardness, scratch and splash resistance, and ultra HD clarity.",
+    image: "https://m.media-amazon.com/images/I/51Im2A-6JmL._UF1000,1000_QL80_FMwebp_.jpg",
+    rating: 4.7,
+    reviews: null,
+    category: "Electronics",
+    tags: ["tv screen guard", "acrylic", "tv accessories", "screen protector"],
+    affiliateUrl: "https://amzn.to/3Vhghmb",
+    features: [
+      "For 24 inch TVs",
+      "3mm acrylic material",
+      "9H hardness",
+      "Scratch & splash resistant",
+      "ISO certified"
+    ],
+    inStock: true
+  },
+  {
+    id: "35",
+    name: "KACA 13-Inch Monitor Screen Light Bar with Smart Touch Sensor",
+    description: "A USB-powered 13-inch LED monitor light bar with a smart touch sensor. Features 3 color temperature modes and stepless dimming for comfortable e-reading.",
+    image: "https://m.media-amazon.com/images/I/515hLdV2shL._UF1000,1000_QL80_FMwebp_.jpg",
+    rating: 4.3,
+    reviews: null,
+    category: "Electronics",
+    tags: ["monitor light", "screen bar", "led lamp", "desk accessories"],
+    affiliateUrl: "https://amzn.to/4mxUmU3",
+    features: [
+      "13-inch size",
+      "Smart touch sensor",
+      "USB powered",
+      "3 color temperature modes",
+      "Stepless dimming"
+    ],
+    inStock: true
+  },
+  {
+    id: "34",
+    name: "12-in-1 Manicure Set Nail Clippers",
+    description: "A 12-in-1 stainless steel grooming kit for men and women. Includes nail clippers, scissors, and tools for blackheads and acne, all in a leather travel case.",
+    image: "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a4c04f29-685d-40db-a08c-850ee275ed48.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+    rating: 4.5,
+    reviews: null,
+    category: "Personal Care & Health",
+    tags: ["manicure set", "grooming kit", "pedicure", "travel case"],
+    affiliateUrl: "https://amzn.to/3ULAO27",
+    inStock: true,
+    features: [
+      "12 pieces in one set",
+      "Stainless steel tools",
+      "Leather travel case",
+      "For men and women"
+    ]
+  },
+  {
+    id: "33",
+    name: "CARESMITH Bloom Electronic Callus Remover For Feet",
+    description: "An electronic foot scrubber designed to remove dead skin. It comes with 3 crystal quartz heads, providing a complete pedicure kit for a foot cleaner.",
+    image: "https://m.media-amazon.com/images/I/71tqOVRtJbL._UF1000,1000_QL80_FMwebp_.jpg",
+    rating: 4.1,
+    reviews: null,
+    category: "Personal Care & Health",
+    tags: ["foot scrubber", "callus remover", "pedicure", "dead skin"],
+    affiliateUrl: "https://amzn.to/3JPCHs8",
+    inStock: true,
+    features: [
+      "Electronic foot scrubber",
+      "3 crystal quartz heads",
+      "Suitable for dead skin removal",
+      "Pedicure kit for women"
+    ]
+  },
+  {
+    id: "32",
+    name: "VYOOx Smarty 2 in 1 Soap Dispenser",
+    description: "A 2-in-1 soap dispenser with a pump and a sponge holder for dishwasher liquid. Includes 6 pieces of dishcloth.",
+    image: "https://m.media-amazon.com/images/I/61SmcNl+FfL._UF1000,1000_QL80_FMwebp_.jpg",
+    rating: 4.4,
+    reviews: null,
+    category: "Home & Kitchen",
+    tags: ["soap dispenser", "kitchen organizer", "dishwashing"],
+    affiliateUrl: "https://amzn.to/4fRb7Hc",
+    inStock: true,
+    features: [
+      "2-in-1 design",
+      "Sponge holder",
+      "Liquid dispenser pump",
+      "Includes 6 dishcloths"
+    ]
+  },
+  {
+    id: "31",
+    name: "Bosch Home & Garden Electric Cleaning Brush",
+    description: "A cordless and rechargeable electric cleaning brush from Bosch. Features a powerful motor and is IPX5 water resistant, making it perfect for kitchen, bathroom, and more.",
+    image: "https://m.media-amazon.com/images/I/815GvV+L03L._UF1000,1000_QL80_FMwebp_.jpg",
+    rating: 4.6,
+    reviews: null,
+    category: "Home & Kitchen",
+    tags: ["electric brush", "cleaning tool", "bosch", "rechargeable"],
+    affiliateUrl: "https://amzn.to/41ibxjM",
+    inStock: true,
+    features: [
+      "Cordless and rechargeable",
+      "Powerful motor",
+      "IPX5 water resistant",
+      "For kitchen, bathroom, shoes, furniture"
+    ]
+  },
+  {
+    id: "30",
+    name: "Zeitel® Mini Bluetooth Thermal Printer",
+    description: "A mini portable thermal printer with Bluetooth connectivity for Android and iOS devices. Comes with 13 rolls of print paper and stickers.",
+    image: "https://m.media-amazon.com/images/I/614cJhOw+TL.jpg",
+    rating: 4.2,
+    reviews: null,
+    category: "Electronics",
+    tags: ["thermal printer", "bluetooth", "portable", "label printer"],
+    affiliateUrl: "https://amzn.to/3HEFILp",
+    inStock: true,
+    features: [
+      "Mini portable design",
+      "Bluetooth connectivity",
+      "Ink-free printing",
+      "Compatible with Android & iOS",
+      "Includes 13 rolls of paper"
+    ]
+  },
+  {
+    id: "29",
+    name: "SWAPKART Flexible Mobile Tabletop Stand",
+    description: "A flexible and heavy-duty tabletop stand with a metal build. Features a foldable lazy bracket clip mount for multi-angle viewing of all smartphones.",
+    image: "https://m.media-amazon.com/images/I/71qLw4ghxwL._UF1000,1000_QL80_FMwebp_.jpg",
+    rating: 4.1,
+    reviews: null,
+    category: "Accessories",
+    tags: ["phone stand", "flexible", "tabletop", "lazy bracket"],
+    affiliateUrl: "https://amzn.to/4mL2Si3",
+    inStock: true,
+    features: [
+      "Flexible and foldable",
+      "Metal build",
+      "Heavy-duty clip mount",
+      "Multi-angle viewing",
+      "For all smartphones"
+    ]
+  },
+  {
+    id: "28",
+    name: "AGARO Percussion Muscle Ring Massager",
+    description: "A rechargeable percussion muscle massager gun with 5 speed settings and 2 modes for deep tissue pain relief and relaxation.",
+    image: "https://m.media-amazon.com/images/I/71Hxw4B1knL._SL1500_.jpg",
+    rating: 4.7,
+    reviews: null,
+    category: "Personal Care & Health",
+    tags: ["massager", "percussion gun", "muscle relief", "rechargeable"],
+    affiliateUrl: "https://amzn.to/4ltVPcA",
+    inStock: true,
+    features: [
+      "5 speed settings",
+      "2 modes",
+      "Rechargeable",
+      "Deep tissue massage",
+      "Full body pain relief"
+    ]
+  },
+  {
+    id: "27",
+    name: "Portronics MOVO 3 in 1 Wireless Charger with Bluetooth Speaker & Makeup Mirror",
+    description: "A 3-in-1 device that combines a Qi2-certified 15W wireless charger, a 5W Bluetooth speaker, and a makeup mirror with 3 adjustable LED lights.",
+    image: "https://m.media-amazon.com/images/I/71PQ0g582mL._UF1000,1000_QL80_FMwebp_.jpg",
+    rating: 4.5,
+    reviews: null,
+    category: "Electronics",
+    tags: ["wireless charger", "bluetooth speaker", "makeup mirror", "3-in-1"],
+    affiliateUrl: "https://amzn.to/3UlPXqH",
+    inStock: true,
+    features: [
+      "15W wireless charging",
+      "5W Bluetooth speaker",
+      "3 LED light modes",
+      "90° adjustable mirror",
+      "Qi2 certified"
+    ]
+  },
+  {
+    id: "26",
+    name: "SELLASTIC Period Cramp Relief Heating Pad Massager",
+    description: "A portable, cordless heating pad and massager for menstrual pain relief. Features 3 heat modes, 3 massage modes, and a front LED display.",
+    image: "https://m.media-amazon.com/images/I/61gIW4Izb4L._UF894,1000_QL80_FMwebp_.jpg",
+    rating: 4.4,
+    reviews: null,
+    category: "Personal Care & Health",
+    tags: ["heating pad", "cramp relief", "massager", "menstrual pain"],
+    affiliateUrl: "https://amzn.to/4lfpV3v",
+    inStock: true,
+    features: [
+      "Portable and cordless",
+      "3 heat modes",
+      "3 massage modes",
+      "LED display",
+      "For back and belly"
+    ]
+  },
+  {
+    id: "25",
+    name: "CALLMATE Powernugget 5000mAh 23W Fast Charging Type C Power Bank",
+    description: "A 5000mAh power bank with 23W fast charging and a Type C PD input and output. Compatible with Samsung and other Type C devices.",
+    image: "https://m.media-amazon.com/images/I/611q3D1grKL._UF1000,1000_QL80_FMwebp_.jpg",
+    rating: 4.3,
+    reviews: null,
+    category: "Electronics",
+    tags: ["power bank", "fast charging", "type c", "portable charger"],
+    affiliateUrl: "https://amzn.to/4mrdzpU",
+    inStock: true,
+    features: [
+      "5000mAh capacity",
+      "23W fast charging",
+      "Type C PD input & output",
+      "Compact design"
+    ]
+  },
+  {
+    id: "24",
+    name: "Fire-Boltt Phoenix Pro Smart Watch",
+    description: "A 1.39-inch Bluetooth calling smartwatch with an AI voice assistant, a metal body, and over 120 sports modes. Monitors SpO2 and heart rate.",
+    image: "https://m.media-amazon.com/images/I/61Y8u2y5XOL._UF1000,1000_QL80_FMwebp_.jpg",
+    rating: 4.0,
+    reviews: null,
+    category: "Electronics",
+    tags: ["smartwatch", "fitness tracker", "bluetooth calling"],
+    affiliateUrl: "https://amzn.to/47lJsf7",
+    inStock: true,
+    features: [
+      "1.39 inch HD display",
+      "Bluetooth calling",
+      "AI voice assistant",
+      "120+ sports modes",
+      "SpO2 & heart rate monitoring"
+    ]
+  },
+  {
+    id: "23",
+    name: "Umi Vintage Twin Bell Alarm Clock",
+    description: "A classic, battery-operated twin bell alarm clock by Amazon Brand - Umi. Features a silent movement and a night backlight for bedroom and office use.",
+    image: "https://m.media-amazon.com/images/I/51zArrygQ8L._UF894,1000_QL80_FMwebp_.jpg",
+    rating: 4.6,
+    reviews: null,
+    category: "Home & Kitchen",
+    tags: ["alarm clock", "vintage", "twin bell", "silent movement"],
+    affiliateUrl: "https://amzn.to/4m5r5j0",
+    inStock: true,
+    features: [
+      "Vintage twin bell design",
+      "Battery operated",
+      "Night backlight",
+      "Silent movement"
+    ]
+  },
+  {
+    id: "22",
+    name: "Himster Wireless Doorbell",
+    description: "A waterproof wireless doorbell with a range of up to 1000 feet. Features 56 melodies, an LED flash, and 7 adjustable volume levels.",
+    image: "https://m.media-amazon.com/images/I/41dBhCUHFPL._UF1000,1000_QL80_FMwebp_.jpg",
+    rating: 4.5,
+    reviews: null,
+    category: "Home & Kitchen",
+    tags: ["doorbell", "wireless", "waterproof", "home security"],
+    affiliateUrl: "https://amzn.to/3UwxpnT",
+    inStock: true,
+    features: [
+      "Waterproof design",
+      "Upto 1000 feet range",
+      "56 melodies",
+      "7 adjustable volume levels",
+      "LED flash"
+    ]
+  },
+  {
+    id: "21",
+    name: "Eopora Automatic Water Dispenser Pump",
+    description: "An electric foldable water dispenser pump for 20-litre bottles. It's USB rechargeable and features a 1200mAh battery, suitable for home and office use.",
+    image: "https://m.media-amazon.com/images/I/6150XmkOQsL._UF894,1000_QL80_FMwebp_.jpg",
+    rating: 4.3,
+    reviews: null,
+    category: "Home & Kitchen",
+    tags: ["water dispenser", "electric pump", "rechargeable", "bottle pump"],
+    affiliateUrl: "https://amzn.to/4oAcApp",
+    inStock: true,
+    features: [
+      "Automatic pump",
+      "For 20 litre bottles",
+      "USB rechargeable",
+      "1200mAh battery",
+      "Foldable design"
+    ]
+  },
+  {
+    id: "20",
+    name: "InstaCuppa Portable Electric Kettle",
+    description: "A portable electric kettle with temperature control and a cool-touch exterior. Features automatic shut-off and dry boil protection with a 500ML capacity.",
+    image: "https://m.media-amazon.com/images/I/51gkg+w5GkL.jpg",
+    rating: 4.4,
+    reviews: null,
+    category: "Home & Kitchen",
+    tags: ["electric kettle", "portable", "travel", "water boiler"],
+    affiliateUrl: "https://amzn.to/40Mz5x0",
+    inStock: true,
+    features: [
+      "Portable and compact",
+      "500ML capacity",
+      "Temperature control",
+      "Automatic shut-off",
+      "Dry boil protection"
+    ]
+  },
+  {
+    id: "19",
+    name: "Robustt Cable Organizer - Black (Pack of 1)",
+    description: "A 1.5-meter flexible cable sleeve with a clip zipper to organize and protect cables. It has a 30MM diameter and is perfect for preventing pets from chewing on cords.",
+    image: "https://m.media-amazon.com/images/I/71AJQDhvdpL._UF1000,1000_QL80_FMwebp_.jpg",
+    rating: 4.5,
+    reviews: null,
+    category: "Accessories",
+    tags: ["cable organizer", "cable sleeve", "cord protector", "home"],
+    affiliateUrl: "https://amzn.to/45nt4cA",
+    inStock: true,
+    features: [
+      "1.5 meter length",
+      "30MM diameter",
+      "Clip zipper design",
+      "Protects from pets"
+    ]
+  },
+  {
+    id: "18",
+    name: "Urban yog MakeMeeBold 3-in-1 Hot Air Brush",
+    description: "A 3-in-1 hot air brush that functions as a hair dryer, straightener, and volumizer. Features a 1.5-inch barrel and 1200 watts of power.",
+    image: "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2db23195-251e-4830-b24f-6f016208edb3.__CR0,0,600,450_PT0_SX600_V1___.jpg",
+    rating: 4.1,
+    reviews: null,
+    category: "Personal Care & Health",
+    tags: ["hair brush", "hot air brush", "hair dryer", "straightener"],
+    affiliateUrl: "https://amzn.to/3H2GZvm",
+    inStock: true,
+    features: [
+      "3-in-1 functionality",
+      "1.5-inch barrel",
+      "1200 watt power",
+      "Dries, straightens, and volumizes"
+    ]
+  },
+  {
+    id: "17",
+    name: "Goodscity Multipurpose Electric Kettle",
+    description: "A 1.2-liter multipurpose electric kettle with a ceramic coating. Can be used to boil, steam, fry, and sauté, making it perfect for preparing various foods.",
+    image: "https://m.media-amazon.com/images/I/61waHDxO54L._UF894,1000_QL80_FMwebp_.jpg",
+    rating: 4.3,
+    reviews: null,
+    category: "Home & Kitchen",
+    tags: ["electric kettle", "multi cooker", "ceramic coating", "hostel"],
+    affiliateUrl: "https://amzn.to/3IHg34Y",
+    inStock: true,
+    features: [
+      "1.2L capacity",
+      "Ceramic coating",
+      "Boil, steam, fry, sauté",
+      "600W power",
+      "1-year warranty"
+    ]
+  },
+  {
+    id: "16",
+    name: "kahula Ultrasonic Cleaner Machine",
+    description: "An ultrasonic jewelry cleaner machine with a digital timer. Ideal for cleaning glasses, rings, earrings, necklaces, and watch straps.",
+    image: "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4b0f9e70-c746-4059-a8ad-21480ecaab2d.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+    rating: 4.6,
+    reviews: null,
+    category: "Home & Kitchen",
+    tags: ["ultrasonic cleaner", "jewelry cleaner", "glasses", "watch cleaner"],
+    affiliateUrl: "https://amzn.to/4nZcW8n",
+    inStock: true,
+    features: [
+      "Ultrasonic technology",
+      "Digital timer",
+      "Cleans jewelry, glasses, watches",
+      "Compact design"
+    ]
+  },
+  {
+    id: "15",
+    name: "Lifelong Rechargeable Electric Head & Scalp Kneading Massager",
+    description: "A rechargeable, handheld electric massager with 4 speed modes for hair growth, deep cleaning, and stress relief.",
+    image: "https://m.media-amazon.com/images/I/5180qAE25rL._UF1000,1000_QL80_FMwebp_.jpg",
+    rating: 4.2,
+    reviews: null,
+    category: "Personal Care & Health",
+    tags: ["head massager", "scalp massager", "rechargeable", "hair growth"],
+    affiliateUrl: "https://amzn.to/4ly8Q5C",
+    inStock: true,
+    features: [
+      "Rechargeable",
+      "4 speed modes",
+      "Handheld and portable",
+      "Relieves stress"
+    ]
+  },
+  {
+    id: "14",
+    name: "boAt New Launch SmartRing Active Plus",
+    description: "A lightweight smart ring with a stainless steel build. Features auto heart rate, sleep, SpO2, stress, and skin temperature monitoring with a 30-day battery life.",
+    image: "https://m.media-amazon.com/images/I/61Q68Y3ikGL._UF1000,1000_QL80_FMwebp_.jpg",
+    rating: 4.5,
+    reviews: null,
+    category: "Electronics",
+    tags: ["smart ring", "boAt", "health monitor", "wearable tech"],
+    affiliateUrl: "https://amzn.to/4f1NLhB",
+    inStock: true,
+    features: [
+      "Auto heart rate monitor",
+      "Sleep and SpO2 tracking",
+      "Stress and skin temperature monitor",
+      "30-day battery",
+      "Stainless-steel build"
+    ]
+  },
+  {
+    id: "13",
+    name: "Qubo Wired Bike GPS Tracker from Hero",
+    description: "A wired GPS tracker for bikes from Hero, offering live location tracking with pinpoint accuracy and up to 6 months of ride history via the Qubo Go App.",
+    image: "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ff76f761-c35b-4c16-9c66-e25141d3a6f6.__CR0,0,970,600_PT0_SX970_V1___.png",
+    rating: 4.4,
+    reviews: null,
+    category: "Automotive",
+    tags: ["gps tracker", "bike security", "hero", "live tracking"],
+    affiliateUrl: "https://amzn.to/3GSFGPw",
+    inStock: true,
+    features: [
+      "Live location tracking",
+      "Pinpoint GPS accuracy",
+      "Ride history (up to 6 months)",
+      "Qubo Go App integration"
+    ]
+  },
+  {
+    id: "12",
+    name: "CostarMatter Clothes Warmer, Mini Portable Heater with PTC Heating",
+    description: "A mini portable heater that helps dry clothes quickly, even in cold weather. It's effective for drying 4-5 pieces at a time.",
+    image: "https://m.media-amazon.com/images/S/aplus-media-library-service-media/6e57a177-497b-4759-8ff9-5d672f767105.__CR0,0,600,450_PT0_SX600_V1___.jpg",
+    rating: 4.1,
+    reviews: null,
+    category: "Home & Kitchen",
+    tags: ["clothes warmer", "portable heater", "ptc heating", "laundry"],
+    affiliateUrl: "https://amzn.to/4eUMFUA",
+    inStock: true,
+    features: [
+      "Mini portable design",
+      "PTC heating technology",
+      "Dries clothes quickly",
+      "Effective in cold weather"
+    ]
+  },
+  {
+    id: "11",
+    name: "Ambrane 50000mAh Powerbank, 20W Fast Charging",
+    description: "A massive 50000mAh power bank with 20W fast charging and triple output (2 USB and 1 Type C). It's a great travel companion with impressive build quality.",
+    image: "https://m.media-amazon.com/images/S/aplus-media-library-service-media/5a2b2a34-258a-4283-a9ca-325b5f86fa9a.__CR0,0,2021,1250_PT0_SX970_V1___.jpg",
+    rating: 4.7,
+    reviews: null,
+    category: "Electronics",
+    tags: ["power bank", "ambrane", "50000mah", "fast charging", "travel"],
+    affiliateUrl: "https://amzn.to/44ydg6F",
+    inStock: true,
+    features: [
+      "50000mAh capacity",
+      "20W fast charging",
+      "Triple output (2 USB & 1 Type C)",
+      "Travel-friendly"
+    ]
+  },
+  {
+    id: "10",
+    name: "Brago Electric Hair Oil Applicator and Scalp Head Massager",
+    description: "An electric hair oil applicator and scalp massager that is practical for daily use, although some customers report mixed experiences with the oil dispensation.",
+    image: "https://m.media-amazon.com/images/I/6118KpFC+8L._UF1000,1000_QL80_FMwebp_.jpg",
+    rating: 3.9,
+    reviews: null,
+    category: "Personal Care & Health",
+    tags: ["hair oil applicator", "scalp massager", "electric", "hair care"],
+    affiliateUrl: "https://amzn.to/40RKuvf",
+    inStock: true,
+    features: [
+      "Electric applicator",
+      "Scalp massager function",
+      "Designed for daily hair oil application"
+    ]
+  },
+  {
+    id: "9",
+    name: "Wipro Odyssey Multifunctional Rechargeable LED Emergency Light",
+    description: "A multifunctional rechargeable LED emergency light from Wipro with amazing light intensity and a reliable backup. It's built to withstand rough handling.",
+    image: "https://m.media-amazon.com/images/S/aplus-media-library-service-media/db2cee73-e72f-4c20-99de-46f516b9de9e.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+    rating: 4.6,
+    reviews: null,
+    category: "Home & Kitchen",
+    tags: ["emergency light", "wipro", "rechargeable", "led light"],
+    affiliateUrl: "https://amzn.to/4f3zu49",
+    inStock: true,
+    features: [
+      "Multifunctional",
+      "Rechargeable",
+      "Amazing light intensity",
+      "Reliable backup"
+    ]
+  },
+  {
+    id: "8",
+    name: "Nutricook Stainless Steel Smart Pot 2",
+    description: "A reliable and easy-to-use stainless steel smart pot that saves time on busy days by combining multiple cooking functions in one appliance.",
+    image: "https://m.media-amazon.com/images/I/61fUcdgMzrL._SL1500_.jpg",
+    rating: 4.7,
+    reviews: null,
+    category: "Home & Kitchen",
+    tags: ["smart pot", "pressure cooker", "nutricook", "stainless steel"],
+    affiliateUrl: "https://amzn.to/4eKYxc3",
+    inStock: true,
+    features: [
+      "Stainless steel construction",
+      "Smart pot functionality",
+      "Easy to use",
+      "Saves time"
+    ]
+  },
+  {
+    id: "7",
+    name: "COSTAR Cordless Hair Straightener Brush",
+    description: "A portable and lightweight hair straightener brush perfect for travel and daily use. Fits easily in bags for on-the-go styling.",
+    image: "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2a7c9a3e-cb8a-4942-bd80-1b3d0d634d93.__CR0,0,600,450_PT0_SX600_V1___.jpg",
+    rating: 4.2,
+    reviews: null,
+    category: "Personal Care & Health",
+    tags: ["hair straightener", "cordless", "portable", "travel"],
+    affiliateUrl: "https://amzn.to/4eD1Hye",
+    inStock: true,
+    features: [
+      "Cordless design",
+      "Portable and lightweight",
+      "Ideal for travel and daily use",
+      "Straightening brush"
+    ]
+  },
+  {
+    id: "6",
+    name: "VANTRO 10L Portable Fridge Model",
+    description: "A high-quality, compact, and portable 10L fridge. It's convenient for travel, particularly for carrying medications, and works very well.",
+    image: "https://m.media-amazon.com/images/I/41RP0wfxQWL._UF894,1000_QL80_FMwebp_.jpg",
+    rating: 4.5,
+    reviews: null,
+    category: "Home & Kitchen",
+    tags: ["portable fridge", "mini fridge", "travel", "medication"],
+    affiliateUrl: "https://amzn.to/3Igkgwg",
+    inStock: true,
+    features: [
+      "10L capacity",
+      "Portable and compact",
+      "High-quality design",
+      "Convenient for travel"
+    ]
+  },
+  {
+    id: "5",
+    name: "Xiaomi Ultra Slim Power Bank",
+    description: "A compact and pocket-friendly power bank from Xiaomi. Ideal for emergency use due to its sleek and portable design.",
+    image: "https://m.media-amazon.com/images/I/71Qb0m6xQvL._UF1000,1000_QL80_FMwebp_.jpg",
+    rating: 4.4,
+    reviews: null,
+    category: "Electronics",
+    tags: ["power bank", "xiaomi", "ultra slim", "portable"],
+    affiliateUrl: "https://amzn.to/40GyVHb",
+    inStock: true,
+    features: [
+      "Ultra-slim design",
+      "Pocket-friendly",
+      "Compact size",
+      "Emergency use"
+    ]
+  },
+  {
+    id: "4",
+    name: "AGARO ROYAL AC Power Automatic Foot Spa Bath Massager With Heat",
+    description: "An automatic foot spa massager with heat that provides a spa-like experience at home. Features automatic rollers that target pressure points for relaxation.",
+    image: "https://m.media-amazon.com/images/I/71aeecYS2gL._SL1500_.jpg",
+    rating: 4.8,
+    reviews: null,
+    category: "Personal Care & Health",
+    tags: ["foot spa", "massager", "heat therapy", "agar", "relaxation"],
+    affiliateUrl: "https://amzn.to/4nBgfCz",
+    inStock: true,
+    features: [
+      "Automatic rollers",
+      "Heating function",
+      "Targets pressure points",
+      "Spa-like experience at home"
+    ]
+  },
+  {
+    id: "3",
+    name: "InstaCuppa Portable Soda Maker",
+    description: "A portable soda maker that is easy to use and offers the versatility to experiment with a variety of mocktails.",
+    image: "https://m.media-amazon.com/images/I/71UtiZikJ1L._SL1500_.jpg",
+    rating: 4.5,
+    reviews: null,
+    category: "Home & Kitchen",
+    tags: ["soda maker", "portable", "mocktail", "instacuppa"],
+    affiliateUrl: "https://amzn.to/44fAJcB",
+    inStock: true,
+    features: [
+      "Portable design",
+      "Easy to use",
+      "Versatile for mocktails",
+      "Carbonates beverages"
+    ]
+  },
+  {
+    id: "2",
+    name: "COSTAR Automatic Umbrella with Light Design Foldable",
+    description: "An automatic, foldable umbrella with a smooth auto open and close mechanism. It includes a torch light for use at night.",
+    image: "https://m.media-amazon.com/images/I/61i+fGyxZCL._SX679_.jpg",
+    rating: 4.6,
+    reviews: null,
+    category: "Accessories",
+    tags: ["umbrella", "automatic", "foldable", "torch light"],
+    affiliateUrl: "https://amzn.to/3IbMTuw",
+    inStock: true,
+    features: [
+      "Automatic open and close",
+      "Torch light for night use",
+      "Foldable and portable",
+      "Durable quality"
+    ]
+  },
+  {
+    id: "1",
+    name: "NexLev Steam Cleaner",
+    description: "A powerful steam cleaner that effectively loosens dirt and grime, especially on kitchen burner stains. Customers rate it as a highly effective cleaning tool.",
+    image: "https://m.media-amazon.com/images/I/51agIZG4f6L._SL1080_.jpg",
+    rating: 4.9,
+    reviews: null,
+    category: "Home & Kitchen",
+    tags: ["steam cleaner", "cleaning tool", "kitchen", "grime remover"],
+    affiliateUrl: "https://amzn.to/4nPpyiH",
+    inStock: true,
+    features: [
+      "Powerful steam",
+      "Effectively loosens dirt and grime",
+      "Ideal for kitchen burner stains",
+      "Highly-rated"
+    ]
+  },
+  {
+    id: "1a",
+    name: "boAt Airdopes Prime 701 ANC TWS Ear Buds",
+    description: "These earbuds are praised for their amazing sound quality, crystal-clear precision, and professional-grade build. They offer a superior audio experience.",
+    image: "https://m.media-amazon.com/images/I/81w9ih+LYSL._SL1500_.jpg",
+    rating: 4.7,
+    reviews: null,
+    category: "Electronics",
+    tags: ["earbuds", "boAt", "wireless", "anc", "audio"],
+    affiliateUrl: "https://www.amazon.in/boAt-Airdopes-Multidevice-Bluetooth-Earphones/dp/B0F8BVYRWS?pd_rd_w=P22wW&content-id=amzn1.sym.7f3d66f6-5df6-41bc-b3bc-9782a34ce834&pf_rd_p=7f3d66f6-5df6-41bc-b3bc-9782a34ce834&pf_rd_r=ZBDDKXPZR3DEY957A5EZ&pd_rd_wg=kI3bs&pd_rd_r=167003c5-e9e2-4b21-8183-d19da90c7f38&pd_rd_i=B0F8BVYRWS&th=1&linkCode=sl1&tag=jaydeals0f4-21&linkId=4cecf8ab37304b9c2f20c9188e428ecc&language=en_IN&ref_=as_li_ss_tl",
+    inStock: true,
+    features: [
+      "Amazing sound quality",
+      "Active Noise Cancellation (ANC)",
+      "Wireless design",
+      "Professional-grade build"
+    ]
+  },
+  {
+    id: "1b",
+    name: "Boat Airdopes Joy TWS Ear Buds",
+    description: "These wireless earbuds offer amazing sound quality, a 50-hour playback time, a 15-hour battery life, and seamless Bluetooth 5.3 connectivity.",
+    image: "https://m.media-amazon.com/images/I/61vHUffJazL._SL1500_.jpg",
+    rating: 4.6,
+    reviews: null,
+    category: "Electronics",
+    tags: ["earbuds", "boat", "wireless", "audio", "bluetooth"],
+    affiliateUrl: "https://www.amazon.in/boAt-Airdopes-Alpha-Wireless-Earbuds/dp/B0C3ZYFZ77/ref=asc_df_B0C3ZYFZ77?mcid=d17bcda88e3c37268e9b1eb350dae758&tag=googleshopdes-21&linkCode=df0&hvadid=710141150090&hvpos=&hvnetw=g&hvrand=13073845556360128916&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9062050&hvtargid=pla-2296655777273&gad_source=1&th=1",
+    inStock: true,
+    features: [
+      "50-hour playback",
+      "15-hour battery life",
+      "Seamless Bluetooth 5.3",
+      "Good sound quality"
+    ]
+  },
+  {
+    id: "1c",
+    name: "PEXPO Craft Pro 1000 Stainless Steel Sports Water Bottle",
+    description: "An ISI-certified stainless steel water bottle with a sipper cap, convenient for daily travel and office use. Features a lightweight and premium-looking design.",
+    image: "https://m.media-amazon.com/images/I/61LDoO9Jl7L._SL1500_.jpg",
+    rating: 4.5,
+    reviews: null,
+    category: "Home & Kitchen",
+    tags: ["water bottle", "stainless steel", "sports bottle", "sipper"],
+    affiliateUrl: "https://www.amazon.in/PEXPO-Certified-Stainless-Purple-Pink-Friendly/dp/B0DRCYP93L?pd_rd_w=HT8j9&content-id=amzn1.sym.7f3d66f6-5df6-41bc-b3bc-9782a34ce834&pf_rd_p=7f3d66f6-5df6-41bc-b3bc-9782a34ce834&pf_rd_r=JT0D8VX4YMHFA550TK36&pd_rd_wg=2TRLb&pd_rd_r=df3a27f4-6551-4cee-a7fc-8c771a1a8fbf&pd_rd_i=B0DRCYP93L&psc=1&linkCode=sl1&tag=jaydeals0f4-21&linkId=c9af122146398e5263108bebcebd83c6&language=en_IN&ref_=as_li_ss_tl",
+    inStock: true,
+    features: [
+      "ISI certified",
+      "Stainless steel",
+      "Sipper cap",
+      "Lightweight and portable"
+    ]
+  },
+  {
+    id: "1d",
+    name: "NutriPro Juicer Mixer Grinder - Smoothie Maker",
+    description: "A powerful and solid blender that is easy to use for making smoothies and juices. Its motor handles everything from smoothies to chutneys with ease.",
+    image: "https://m.media-amazon.com/images/I/71PkRff5mdL._SL1500_.jpg",
+    rating: 4.7,
+    reviews: null,
+    category: "Home & Kitchen",
+    tags: ["blender", "juicer", "mixer grinder", "smoothie maker"],
+    affiliateUrl: "https://www.amazon.in/NutriPro-Bullet-Juicer-Grinder-Blades/dp/B09J2T124D?pd_rd_w=HT8j9&content-id=amzn1.sym.7f3d66f6-5df6-41bc-b3bc-9782a34ce834&pf_rd_p=7f3d66f6-5df6-41bc-b3bc-9782a34ce834&pf_rd_r=JT0D8VX4YMHFA550TK36&pd_rd_wg=2TRLb&pd_rd_r=df3a27f4-6551-4cee-a7fc-8c771a1a8fbf&pd_rd_i=B09J2T124D&th=1&linkCode=sl1&tag=jaydeals0f4-21&linkId=fe4e8fca018ae95609c2abd7cc311d60&language=en_IN&ref_=as_li_ss_tl",
+    inStock: true,
+    features: [
+      "Powerful motor",
+      "Easy to use",
+      "Suitable for smoothies and chutneys"
+    ]
+  },
+  {
+    id: "1e",
+    name: "Premium Cloth Drying Stand - 3 Way Folding",
+    description: "A well-designed and practical 3-way folding cloth drying stand. Customers find it to be of good quality and suitable for shirts and dresses.",
+    image: "https://m.media-amazon.com/images/I/71vkps3XMVL._SL1500_.jpg",
+    rating: 4.3,
+    reviews: null,
+    category: "Home & Kitchen",
+    tags: ["cloth drying stand", "laundry", "foldable", "clothes hanger"],
+    affiliateUrl: "https://www.amazon.in/Amazon-Basics-Premium-Cloth-Drying/dp/B0DY4XZQ8L?pd_rd_w=OIGcL&content-id=amzn1.sym.7f3d66f6-5df6-41bc-b3bc-9782a34ce834&pf_rd_p=7f3d66f6-5df6-41bc-b3bc-9782a34ce834&pf_rd_r=X8KAS13082CX21VBJ5C3&pd_rd_wg=BsInI&pd_rd_r=59ce4f59-2176-4e61-b9f9-9ebe2a66868a&pd_rd_i=B0DY4XZQ8L&th=1&linkCode=sl1&tag=jaydeals0f4-21&linkId=daef948be2adfbb029dc30918b39ca22&language=en_IN&ref_=as_li_ss_tl",
+    inStock: true,
+    features: [
+      "3-way folding design",
+      "Good quality construction",
+      "Practical for everyday use",
+      "Suitable for various clothes"
+    ]
+  },
+  {
+    id: "1f",
+    name: "One94store Astronaut Galaxy Projector Night Light",
+    description: "A galaxy projector night light in the shape of an astronaut with a 360° rotating nebula and star projection. It includes a remote control and timer.",
+    image: "https://m.media-amazon.com/images/I/71E6Z0oTisL._SL1500_.jpg",
+    rating: 4.6,
+    reviews: null,
+    category: "Home & Kitchen",
+    tags: ["night light", "projector", "astronaut", "galaxy", "home decor"],
+    affiliateUrl: "https://www.amazon.in/One94store-Astronaut-Galaxy-Projector-Night/dp/B0DN1RWNSQ?pd_rd_w=HT8j9&content-id=amzn1.sym.7f3d66f6-5df6-41bc-b3bc-9782a34ce834&pf_rd_p=7f3d66f6-5df6-41bc-b3bc-9782a34ce834&pf_rd_r=JT0D8VX4YMHFA550TK36&pd_rd_wg=2TRLb&pd_rd_r=df3a27f4-6551-4cee-a7fc-8c771a1a8fbf&pd_rd_i=B0DN1RWNSQ&th=1&linkCode=sl1&tag=jaydeals0f4-21&linkId=d0658df4f8d4529217048a138684977b&language=en_IN&ref_=as_li_ss_tl",
+    inStock: true,
+    features: [
+      "Astronaut design",
+      "360° rotating nebula",
+      "Remote control",
+      "Timer function",
+      "Good quality and appearance"
+    ]
+  },
+  {
+    id: "1g",
+    name: "TEKCOOL UV Big Size Umbrella for Sun Protection",
+    description: "A large, foldable umbrella that provides UV protection from the sun, and is windproof and rainproof. It's lightweight and easy to carry, making it suitable for travel.",
+    image: "https://m.media-amazon.com/images/I/415HbMuaT+L.jpg",
+    rating: 4.4,
+    reviews: null,
+    category: "Accessories",
+    tags: ["umbrella", "uv protection", "windproof", "rainproof", "travel"],
+    affiliateUrl: "https://www.amazon.in/TEKCOOL-Umbrella-Protection-Windproof-case/dp/B0F42YH8K6?pd_rd_w=kQyMk&content-id=amzn1.sym.7f3d66f6-5df6-41bc-b3bc-9782a34ce834&pf_rd_p=7f3d66f6-5df6-41bc-b3bc-9782a34ce834&pf_rd_r=JT0D8VX4YMHFA550TK36&pd_rd_wg=2TRLb&pd_rd_r=df3a27f4-6551-4cee-a7fc-8c771a1a8fbf&pd_rd_i=B0F42YH8K6&th=1&linkCode=sl1&tag=jaydeals0f4-21&linkId=484165268b4bd8ab46ad32080a764b6e&language=en_IN&ref_=as_li_ss_tl",
+    inStock: true,
+    features: [
+      "UV protection",
+      "Large size",
+      "Windproof and rainproof",
+      "Lightweight and portable"
+    ]
+  },
+  {
+    id: "1h",
+    name: "Skybags Unisex Brat 20L Premium Polyester Backpack",
+    description: "A 20-liter unisex backpack with a simple style and four compartments. It's made of premium polyester with adjustable straps and offers superb value for its price.",
+    image: "https://m.media-amazon.com/images/I/611VkEgDqtL._SL1500_.jpg",
+    rating: 4.6,
+    reviews: null,
+    category: "Bags & Luggage",
+    tags: ["backpack", "skybags", "school bag", "travel"],
+    affiliateUrl: "https://www.amazon.in/Skybags-Premium-Polyester-Adjustable-Backpack/dp/B0D1G32M32?pd_rd_w=kQyMk&content-id=amzn1.sym.7f3d66f6-5df6-41bc-b3bc-9782a34ce834&pf_rd_p=7f3d66f6-5df6-41bc-b3bc-9782a34ce834&pf_rd_r=JT0D8VX4YMHFA550TK36&pd_rd_wg=2TRLb&pd_rd_r=df3a27f4-6551-4cee-a7fc-8c771a1a8fbf&pd_rd_i=B0D1G32M32&th=1&linkCode=sl1&tag=jaydeals0f4-21&linkId=04fd107cd84e3516a7c2b0691f479ea8&language=en_IN&ref_=as_li_ss_tl",
+    inStock: true,
+    features: [
+      "20L capacity",
+      "Premium polyester",
+      "4 compartments",
+      "Adjustable straps",
+      "Superb value"
+    ]
+  },
+  {
+    id: "1i",
+    name: "Robustt Washing Machine Stand- Adjustable Metal Trolley",
+    description: "An adjustable metal trolley with wheels and four anti-vibration rubber grips for washing machines. It is a sturdy and high-quality product that can be easily adjusted to fit different machine sizes.",
+    image: "https://m.media-amazon.com/images/I/71Ly+bg4W8L._SL1500_.jpg",
+    rating: 4.5,
+    reviews: null,
+    category: "Home & Kitchen",
+    tags: ["washing machine stand", "trolley", "adjustable", "anti-vibration"],
+    affiliateUrl: "https://www.amazon.in/Robustt-Adjustable-Vibration-Suitable-Dishwasher/dp/B0DX75NPTD?pd_rd_w=xANWk&content-id=amzn1.sym.7f3d66f6-5df6-41bc-b3bc-9782a34ce834&pf_rd_p=7f3d66f6-5df6-41bc-b3bc-9782a34ce834&pf_rd_r=ZBDDKXPZR3DEY957A5EZ&pd_rd_wg=kI3bs&pd_rd_r=167003c5-e9e2-4b21-8183-d19da90c7f38&pd_rd_i=B0DX75NPTD&psc=1&linkCode=sl1&tag=jaydeals0f4-21&linkId=f3204ebc1241c52b99f46f0302f7a665&language=en_IN&ref_=as_li_ss_tl",
+    inStock: true,
+    features: [
+      "Adjustable metal trolley",
+      "Wheels for easy movement",
+      "4 anti-vibration rubber grips",
+      "Sturdy and high quality"
+    ]
+  }
+];
+
+export const categories = [
+  "All",
+  "Electronics",
+  "Home & Kitchen",
+  "Personal Care & Health",
+  "Office & School Supplies",
+  "Accessories",
+  "Bags & Luggage",
+  "Automotive"
+];
