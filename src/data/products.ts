@@ -15,24 +15,6 @@ export interface Product {
 }
 
 export const products: Product[] = [
-    {
-  id: "42",
-  name: "Verilux® Pendrive 128GB 4 in 1 Flash Drive",
-  description: "A versatile 4-in-1 flash drive with Lightning, Micro USB, USB-A, and Type-C interfaces, offering 128GB of storage for iOS, Android, and PC devices.",
-  image: "https://m.media-amazon.com/images/I/510ED46K8pL._SL1200_.jpg",
-  rating: 4.5,
-  reviews: null,
-  category: "Electronics",
-  tags: ["pendrive", "flash drive", "128gb", "4-in-1", "storage"],
-  affiliateUrl: "https://amzn.to/3JJXDRo",
-  features: [
-    "128GB storage capacity",
-    "4-in-1 interface: Lightning, Micro USB, USB A, Type-C",
-    "Compatible with iPhone, iPad, Android, PC",
-    "Mini hangable design"
-  ],
-  inStock: true
-  },
   {
   id: "42",
   name: "Verilux® Pendrive 128GB 4 in 1 Flash Drive",
