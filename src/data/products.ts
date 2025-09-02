@@ -16,6 +16,25 @@ export interface Product {
 
 export const products: Product[] = [
   {
+  "id": "43",
+  "name": "The Better Home Detachable Cookware Handle",
+  "description": "A universal, removable pan handle suitable for all cookware. Features a quick-release mechanism for easy attachment and detachment, saving space and making it convenient for cooking and storage.",
+  "image": "https://m.media-amazon.com/images/I/71nYIzfHN+L.jpg",
+  "rating": 4.1,
+  "reviews": null,
+  "category": "Home & Kitchen",
+  "tags": ["cookware", "handle", "detachable", "removable", "universal", "kitchen"],
+  "affiliateUrl": "https://amzn.to/41waEEl",
+  "features": [
+    "Detachable and removable design",
+    "Universal fit for most cookware",
+    "Quick-release mechanism",
+    "Heat-resistant material",
+    "Space-saving storage"
+  ],
+  "inStock": true
+},
+  {
   id: "42",
   name: "Verilux® Pendrive 128GB 4 in 1 Flash Drive",
   description: "A versatile 4-in-1 flash drive with Lightning, Micro USB, USB-A, and Type-C interfaces, offering 128GB of storage for iOS, Android, and PC devices.",
