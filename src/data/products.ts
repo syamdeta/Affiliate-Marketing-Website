@@ -16,6 +16,25 @@ export interface Product {
 
 export const products: Product[] = [
   {
+  "id": "44",
+  "name": "oddpod Metal Combination Key Safe Box",
+  "description": "An outdoor key storage box with a combination password security lock. Made of durable metal, this safe box is designed to securely hold keys for homes, offices, or rentals, providing easy access for authorized users while protecting against theft.",
+  "image": "https://m.media-amazon.com/images/I/51Uf+O5QuIL._UF1000,1000_QL80_FMwebp_.jpg",
+  "rating": 4.3,
+  "reviews": null,
+  "category": "Home & Kitchen",
+  "tags": ["key safe", "lock box", "key storage", "combination lock", "security"],
+  "affiliateUrl": "https://amzn.to/47YSdfr",
+  "features": [
+    "Metal construction for durability",
+    "Combination password security lock",
+    "Outdoor weather-resistant design",
+    "Secure storage for multiple keys",
+    "Easy to mount and use"
+  ],
+  "inStock": true
+},
+  {
   "id": "43",
   "name": "The Better Home Detachable Cookware Handle",
   "description": "A universal, removable pan handle suitable for all cookware. Features a quick-release mechanism for easy attachment and detachment, saving space and making it convenient for cooking and storage.",
