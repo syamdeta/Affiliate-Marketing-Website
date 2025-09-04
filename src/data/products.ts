@@ -16,6 +16,25 @@ export interface Product {
 
 export const products: Product[] = [
   {
+  "id": "45",
+  "name": "Interhasa! Automatic Foam Soap Dispenser",
+  "description": "An automatic foam soap dispenser with a touchless, hand-free sensor for hygienic use in bathrooms and kitchens. It has a 300ml/10oz capacity, is waterproof, and provides smart foaming for an efficient and mess-free handwashing experience.",
+  "image": "https://m.media-amazon.com/images/I/51wUoqfgpuL._UF894,1000_QL80_FMwebp_.jpg",
+  "rating": 4.2,
+  "reviews": null,
+  "category": "Home & Kitchen",
+  "tags": ["soap dispenser", "automatic", "touchless", "foaming", "bathroom", "kitchen"],
+  "affiliateUrl": "https://amzn.to/46l1TzI",
+  "features": [
+    "Automatic, touchless sensor operation",
+    "300ml/10oz capacity",
+    "Smart foaming technology",
+    "Waterproof design",
+    "Suitable for bathroom and kitchen"
+  ],
+  "inStock": true
+},
+  {
   "id": "44",
   "name": "oddpod Metal Combination Key Safe Box",
   "description": "An outdoor key storage box with a combination password security lock. Made of durable metal, this safe box is designed to securely hold keys for homes, offices, or rentals, providing easy access for authorized users while protecting against theft.",
