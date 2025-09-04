@@ -16,6 +16,25 @@ export interface Product {
 
 export const products: Product[] = [
   {
+  "id": "46",
+  "name": "VAVSU Plastic Punch Free Towel Plug Holder",
+  "description": "A set of three punch-free towel holders designed for easy installation in bathrooms and kitchens. These self-adhesive clips securely hold towels and washcloths, helping to keep the space organized without the need for drilling or hardware.",
+  "image": "https://m.media-amazon.com/images/I/615wY1H8IgL._UF1000,1000_QL80_FMwebp_.jpg",
+  "rating": 3.9,
+  "reviews": null,
+  "category": "Home & Kitchen",
+  "tags": ["towel holder", "punch free", "organizer", "bathroom", "kitchen", "storage"],
+  "affiliateUrl": "https://amzn.to/4gdmYzA",
+  "features": [
+    "Punch-free, self-adhesive design",
+    "Easy and quick installation",
+    "Suitable for towels and washcloths",
+    "Space-saving and clutter-free solution",
+    "Set of three holders"
+  ],
+  "inStock": true
+},
+  {
   "id": "45",
   "name": "Interhasa! Automatic Foam Soap Dispenser",
   "description": "An automatic foam soap dispenser with a touchless, hand-free sensor for hygienic use in bathrooms and kitchens. It has a 300ml/10oz capacity, is waterproof, and provides smart foaming for an efficient and mess-free handwashing experience.",
