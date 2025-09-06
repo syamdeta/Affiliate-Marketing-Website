@@ -16,6 +16,25 @@ export interface Product {
 
 export const products: Product[] = [
   {
+  "id": "47",
+  "name": "Rio All in 1 4G Food Processor Attachment & Coconut Scrapper",
+  "description": "A versatile universal attachment for existing mixer grinders, this 4G food processor can perform a variety of kitchen tasks including kneading dough, chopping vegetables, slicing, shredding, and coconut scraping. It features a unique gearbox to reduce the load on the mixer motor and comes with multiple blades for different functions.",
+  "image": "https://m.media-amazon.com/images/I/61C5gMfbzCL._UF894,1000_QL80_FMwebp_.jpg",
+  "rating": 4.0,
+  "reviews": null,
+  "category": "Home & Kitchen",
+  "tags": ["food processor", "attachment", "mixer grinder", "coconut scrapper", "kitchen appliance"],
+  "affiliateUrl": "https://amzn.to/3JIz87r",
+  "features": [
+    "All-in-one food processing functions",
+    "Includes coconut scrapper and various blades",
+    "Universal design fits many mixer grinders (check compatibility)",
+    "Gearbox to reduce motor load",
+    "Unbreakable bowl and cover"
+  ],
+  "inStock": true
+},
+  {
   "id": "46",
   "name": "VAVSU Plastic Punch Free Towel Plug Holder",
   "description": "A set of three punch-free towel holders designed for easy installation in bathrooms and kitchens. These self-adhesive clips securely hold towels and washcloths, helping to keep the space organized without the need for drilling or hardware.",
