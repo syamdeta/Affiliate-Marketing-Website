@@ -16,6 +16,25 @@ export interface Product {
 
 export const products: Product[] = [
   {
+  "id": "48",
+  "name": "FiABLE Premium Grade Silicone Trivet Mats",
+  "description": "A set of three premium silicone trivet mats designed for use with hot pans and pots. These mats are non-stick, non-slip, and scratch-proof, offering high heat resistance to protect dining tables and kitchen countertops. They are extra thick (8mm) for enhanced durability and come in a stylish grey color.",
+  "image": "https://m.media-amazon.com/images/I/717e3kIREqL._UF894,1000_QL80_FMwebp_.jpg",
+  "rating": 4.6,
+  "reviews": null,
+  "category": "Home & Kitchen",
+  "tags": ["trivet mats", "silicone", "pot holder", "heat resistant", "kitchen", "dining"],
+  "affiliateUrl": "https://amzn.to/3Kalt95",
+  "features": [
+    "Set of 3 silicone mats",
+    "High heat resistance",
+    "Non-stick and non-slip surface",
+    "Scratch-proof protection for surfaces",
+    "8mm extra thick design"
+  ],
+  "inStock": true
+},
+  {
   "id": "47",
   "name": "Rio All in 1 4G Food Processor Attachment & Coconut Scrapper",
   "description": "A versatile universal attachment for existing mixer grinders, this 4G food processor can perform a variety of kitchen tasks including kneading dough, chopping vegetables, slicing, shredding, and coconut scraping. It features a unique gearbox to reduce the load on the mixer motor and comes with multiple blades for different functions.",
