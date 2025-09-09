@@ -16,8 +16,17 @@ const ProductCard = ({ product }: ProductCardProps) => {
   //   : 0;
     
   const handleViewDetails = () => {
-    window.open(product.affiliateUrl, '_blank', 'noopener,noreferrer');
-  };
+  if (typeof window.gtag !== "undefined") {
+    window.gtag("event", "click_product_card", {
+      event_category: "Affiliate",
+      event_label: product.name,
+      value: product.price || 0,
+    });
+  }
+
+  window.open(product.affiliateUrl, "_blank", "noopener,noreferrer");
+};
+
 
   return (
     <Card className="group cursor-pointer overflow-hidden transition-all duration-300 hover:shadow-card-hover hover:scale-[1.02] bg-card border-border">
