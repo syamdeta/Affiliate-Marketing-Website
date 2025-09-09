@@ -16,6 +16,25 @@ export interface Product {
 
 export const products: Product[] = [
   {
+  "id": "49",
+  "name": "DIVIDEX STORE Coffee Mug Warmer",
+  "description": "An electric beverage warmer designed to keep coffee, milk, tea, and other drinks at a constant, warm temperature. This smart, thermostatic cup heater is perfect for use on a desk and comes with a mug. It features an automatic shut-off function and is available in a multicolored design.",
+  "image": "https://m.media-amazon.com/images/I/61-u0bJs72L._SL1500_.jpg",
+  "rating": 4.1,
+  "reviews": null,
+  "category": "Home & Kitchen",
+  "tags": ["mug warmer", "cup heater", "beverage warmer", "coffee", "desk", "thermostatic"],
+  "affiliateUrl": "https://amzn.to/4mb40e6",
+  "features": [
+    "Automatic thermostatic function",
+    "Keeps beverages warm for extended periods",
+    "Suitable for coffee, tea, milk, and more",
+    "Comes with a mug included",
+    "Portable and easy to use on a desk"
+  ],
+  "inStock": true
+},
+  {
   "id": "48",
   "name": "FiABLE Premium Grade Silicone Trivet Mats",
   "description": "A set of three premium silicone trivet mats designed for use with hot pans and pots. These mats are non-stick, non-slip, and scratch-proof, offering high heat resistance to protect dining tables and kitchen countertops. They are extra thick (8mm) for enhanced durability and come in a stylish grey color.",
