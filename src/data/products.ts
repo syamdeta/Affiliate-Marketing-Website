@@ -17,20 +17,20 @@ export interface Product {
 export const products: Product[] = [
   {
   "id": "49",
-  "name": "DIVIDEX STORE Coffee Mug Warmer",
-  "description": "An electric beverage warmer designed to keep coffee, milk, tea, and other drinks at a constant, warm temperature. This smart, thermostatic cup heater is perfect for use on a desk and comes with a mug. It features an automatic shut-off function and is available in a multicolored design.",
-  "image": "https://m.media-amazon.com/images/I/61-u0bJs72L._SL1500_.jpg",
+  "name": "Robodo USB Fingerprint Reader",
+  "description": "A compact USB fingerprint reader for desktop and laptop computers, providing a quick and secure password-free login solution. This biometric scanner is designed for easy use, allowing you to access your device with just a touch.",
+  "image": "https://m.media-amazon.com/images/I/51jWKhQLTxL._SL1500_.jpg",
   "rating": 4.1,
   "reviews": null,
-  "category": "Home & Kitchen",
-  "tags": ["mug warmer", "cup heater", "beverage warmer", "coffee", "desk", "thermostatic"],
-  "affiliateUrl": "https://amzn.to/4mb40e6",
+  "category": "Electronics",
+  "tags": ["fingerprint reader", "biometric scanner", "USB", "password-free", "login", "security"],
+  "affiliateUrl": "https://amzn.to/4m8SJee",
   "features": [
-    "Automatic thermostatic function",
-    "Keeps beverages warm for extended periods",
-    "Suitable for coffee, tea, milk, and more",
-    "Comes with a mug included",
-    "Portable and easy to use on a desk"
+    "USB connectivity",
+    "Password-free login with biometric security",
+    "Compact and portable design",
+    "Compatible with desktop and laptop computers",
+    "Quick and easy setup"
   ],
   "inStock": true
 },
