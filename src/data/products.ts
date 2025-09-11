@@ -16,6 +16,25 @@ export interface Product {
 
 export const products: Product[] = [
   {
+  "id": "50",
+  "name": "CELLO Roti Plus Insulated Stainless Steel Casserole",
+  "description": "A 2500ml insulated stainless steel casserole with a lid, designed to keep rotis and chapatis hot and fresh. This hot pot features a PU insulated inner steel body and a drip tray to prevent moisture buildup, making it perfect for the kitchen and dining table.",
+  "image": "https://m.media-amazon.com/images/I/61rYnchxj7L._UF894,1000_QL80_FMwebp_.jpg",
+  "rating": 4.5,
+  "reviews": null,
+  "category": "Home & Kitchen",
+  "tags": ["casserole", "insulated", "roti box", "hot pot", "kitchen", "stainless steel"],
+  "affiliateUrl": "https://amzn.to/3HWQBZg",
+  "features": [
+    "2500ml capacity",
+    "PU insulated to keep food hot",
+    "Stainless steel inner body with drip tray",
+    "Stylish pink color",
+    "Ideal for storing rotis and chapatis"
+  ],
+  "inStock": true
+},
+  {
   "id": "49",
   "name": "Robodo USB Fingerprint Reader",
   "description": "A compact USB fingerprint reader for desktop and laptop computers, providing a quick and secure password-free login solution. This biometric scanner is designed for easy use, allowing you to access your device with just a touch.",
