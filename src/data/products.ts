@@ -15,6 +15,25 @@ export interface Product {
 }
 
 export const products: Product[] = [
+{
+  "id": "51",
+  "name": "CYMNIX 4-in-1 Table Lamp with Wireless Charging",
+  "description": "A versatile 4-in-1 table lamp featuring a modern design with touch controls, adjustable LED light settings, and a built-in wireless charging pad. This lamp also includes a USB port and a unique removable ambiance wall lighting feature, making it a perfect multi-functional addition to a home office, study, or bedroom.",
+  "image": "https://m.media-amazon.com/images/I/61og1WSycJL._UF1000,1000_QL80_FMwebp_.jpg",
+  "rating": 4.3,
+  "reviews": null,
+  "category": "Home & Kitchen",
+  "tags": ["table lamp", "wireless charging", "desk lamp", "LED light", "touch control", "home office"],
+  "affiliateUrl": "https://amzn.to/4nqvEon",
+  "features": [
+    "4-in-1 functionality: lamp, wireless charger, USB port, wall light",
+    "Touch-sensitive controls",
+    "Adjustable LED light settings (brightness and color temperature)",
+    "Removable ambiance wall lighting",
+    "Modern and sleek design"
+  ],
+  "inStock": true
+},
   {
   "id": "50",
   "name": "CELLO Roti Plus Insulated Stainless Steel Casserole",
