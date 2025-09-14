@@ -16,6 +16,25 @@ export interface Product {
 
 export const products: Product[] = [
 {
+  "id": "52",
+  "name": "Supreme On Mosquito Net for Double Bed",
+  "description": "A premium queen-size mosquito net designed for double beds (6 x 6.5 feet), featuring a 30 Star design. Made with 30 GSM strong and durable net material, it has a foldable tent-type structure with a corrosion-resistant frame, providing effective protection against mosquitoes and insects while ensuring a comfortable sleep.",
+  "image": "https://m.media-amazon.com/images/I/71lN8UKZsWL._UF894,1000_QL80_FMwebp_.jpg",
+  "rating": 4.0,
+  "reviews": null,
+  "category": "Home & Kitchen",
+  "tags": ["mosquito net", "double bed", "queen-size", "machardani", "bedding", "home decor"],
+  "affiliateUrl": "https://amzn.to/46aXdLm",
+  "features": [
+    "Fits double beds (6 x 6.5 feet)",
+    "30 GSM strong and durable net",
+    "Foldable tent-type design",
+    "Corrosion-resistant frame",
+    "30 Star pattern design"
+  ],
+  "inStock": true
+},
+{
   "id": "51",
   "name": "CYMNIX 4-in-1 Table Lamp with Wireless Charging",
   "description": "A versatile 4-in-1 table lamp featuring a modern design with touch controls, adjustable LED light settings, and a built-in wireless charging pad. This lamp also includes a USB port and a unique removable ambiance wall lighting feature, making it a perfect multi-functional addition to a home office, study, or bedroom.",
