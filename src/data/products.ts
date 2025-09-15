@@ -16,6 +16,44 @@ export interface Product {
 
 export const products: Product[] = [
 {
+  "id": "54",
+  "name": "NEXT GEEK Glue Remover Cleaning Scraper Tool",
+  "description": "A multipurpose double-edged scraper tool designed for removing paint, labels, and stickers. This kit includes 15 plastic blades and 15 metal blades, providing versatility for various cleaning and scraping tasks on different surfaces without causing damage.",
+  "image": "https://m.media-amazon.com/images/I/71HhmKdEoQL._UF1000,1000_QL80_FMwebp_.jpg",
+  "rating": 4.3,
+  "reviews": null,
+  "category": "Home Improvement",
+  "tags": ["scraper tool", "glue remover", "cleaning tool", "sticker remover", "blades"],
+  "affiliateUrl": "https://amzn.to/4gsIKiO",
+  "features": [
+    "Double-edged scraper design",
+    "Includes 15 plastic blades and 15 metal blades",
+    "Multipurpose use for removing paint, labels, stickers",
+    "Ergonomic handle for comfortable grip",
+    "Suitable for a variety of surfaces"
+  ],
+  "inStock": true
+},
+{
+  "id": "53",
+  "name": "3M General Purpose Adhesive Cleaner",
+  "description": "A versatile adhesive cleaner in a 425g can that effectively removes sticky residue from glue, stickers, and tapes. Its clear formula is safe to use on painted surfaces, making it ideal for various household and automotive cleaning tasks.",
+  "image": "https://m.media-amazon.com/images/I/61amRxd+KKL._UF1000,1000_QL80_FMwebp_.jpg",
+  "rating": 4.3,
+  "reviews": null,
+  "category": "Home Improvement",
+  "tags": ["adhesive remover", "cleaner", "sticky residue", "glue remover", "3m"],
+  "affiliateUrl": "https://amzn.to/4poVBq6",
+  "features": [
+    "425g aerosol can",
+    "Removes glue, stickers, and tape residue",
+    "Safe on most painted surfaces",
+    "General purpose use",
+    "Clear formula"
+  ],
+  "inStock": true
+},
+{
   "id": "52",
   "name": "Supreme On Mosquito Net for Double Bed",
   "description": "A premium queen-size mosquito net designed for double beds (6 x 6.5 feet), featuring a 30 Star design. Made with 30 GSM strong and durable net material, it has a foldable tent-type structure with a corrosion-resistant frame, providing effective protection against mosquitoes and insects while ensuring a comfortable sleep.",
