@@ -16,6 +16,25 @@ export interface Product {
 
 export const products: Product[] = [
 {
+  "id": "55",
+  "name": "TEKCOOL Portable Mini Sealing Machine",
+  "description": "A handheld, portable mini sealing machine designed to quickly and easily seal plastic bags for food, snacks, and chips, ensuring fresh storage. This packet sealer is perfect for kitchen use and comes with a 1-year warranty.",
+  "image": "https://m.media-amazon.com/images/I/61KNdnQAERL._UF894,1000_QL80_FMwebp_.jpg",
+  "rating": 4.0,
+  "reviews": null,
+  "category": "Home & Kitchen",
+  "tags": ["sealing machine", "mini sealer", "food sealer", "bag sealer", "kitchen tool", "portable"],
+  "affiliateUrl": "https://amzn.to/4nLKTsm",
+  "features": [
+    "Handheld and portable design",
+    "Seals plastic bags for fresh food storage",
+    "Suitable for snacks and chips packets",
+    "Easy to use",
+    "1-year warranty"
+  ],
+  "inStock": true
+},
+{
   "id": "54",
   "name": "NEXT GEEK Glue Remover Cleaning Scraper Tool",
   "description": "A multipurpose double-edged scraper tool designed for removing paint, labels, and stickers. This kit includes 15 plastic blades and 15 metal blades, providing versatility for various cleaning and scraping tasks on different surfaces without causing damage.",
