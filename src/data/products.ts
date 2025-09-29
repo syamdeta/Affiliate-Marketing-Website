@@ -1128,7 +1128,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Accessories",
     tags: ["umbrella", "uv protection", "windproof", "rainproof", "travel"],
-    affiliateUrl: "https://www.amazon.in/TEKCOOL-Umbrella-Protection-Windproof-case/dp/B0F42YH8K6?pd_rd_w=kQyMk&content-id=amzn1.sym.7f3d66f6-5df6-41bc-b3bc-9782a34ce834&pf_rd_p=7f3d66f6-5df6-41bc-b3bc-9782a34ce834&pf_rd_r=JT0D8VX4YMHFA550TK36&pd_rd_wg=2TRLb&pd_rd_r=df3a27f4-6551-4cee-a7fc-8c771a1a8fbf&pd_rd_i=B0F42YH8K6&th=1&linkCode=sl1&tag=jaydeals0f4-21&linkId=484165268b4bd8ab46ad32080a764b6e&language=en_IN&ref_=as_li_ss_tl",
+    affiliateUrl: "https://amzn.to/4pGvHP3",
     inStock: true,
     features: [
       "UV protection",
