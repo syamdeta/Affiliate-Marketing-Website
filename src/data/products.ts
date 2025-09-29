@@ -1165,7 +1165,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Home & Kitchen",
     tags: ["washing machine stand", "trolley", "adjustable", "anti-vibration"],
-    affiliateUrl: "https://www.amazon.in/Robustt-Adjustable-Vibration-Suitable-Dishwasher/dp/B0DX75NPTD?pd_rd_w=xANWk&content-id=amzn1.sym.7f3d66f6-5df6-41bc-b3bc-9782a34ce834&pf_rd_p=7f3d66f6-5df6-41bc-b3bc-9782a34ce834&pf_rd_r=ZBDDKXPZR3DEY957A5EZ&pd_rd_wg=kI3bs&pd_rd_r=167003c5-e9e2-4b21-8183-d19da90c7f38&pd_rd_i=B0DX75NPTD&psc=1&linkCode=sl1&tag=jaydeals0f4-21&linkId=f3204ebc1241c52b99f46f0302f7a665&language=en_IN&ref_=as_li_ss_tl",
+    affiliateUrl: "https://amzn.to/3KqHeSn",
     inStock: true,
     features: [
       "Adjustable metal trolley",
