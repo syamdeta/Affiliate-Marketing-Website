@@ -1,3 +1,4 @@
+
 export interface Product {
   id: string;
   name: string;
@@ -895,7 +896,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Home & Kitchen",
     tags: ["smart pot", "pressure cooker", "nutricook", "stainless steel"],
-    affiliateUrl: "https://amzn.to/46zSwMT",
+    affiliateUrl: "https://amzn.to/4mMApYL",
     inStock: true,
     features: [
       "Stainless steel construction",
@@ -913,7 +914,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Personal Care & Health",
     tags: ["hair straightener", "cordless", "portable", "travel"],
-    affiliateUrl: "https://amzn.to/4eD1Hye",
+    affiliateUrl: "https://amzn.to/3VNbA3S",
     inStock: true,
     features: [
       "Cordless design",
@@ -931,7 +932,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Home & Kitchen",
     tags: ["portable fridge", "mini fridge", "travel", "medication"],
-    affiliateUrl: "https://amzn.to/3Igkgwg",
+    affiliateUrl: "https://amzn.to/48dHWfI",
     inStock: true,
     features: [
       "10L capacity",
@@ -949,7 +950,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Electronics",
     tags: ["power bank", "xiaomi", "ultra slim", "portable"],
-    affiliateUrl: "https://amzn.to/40GyVHb",
+    affiliateUrl: "https://amzn.to/4nzfWIg",
     inStock: true,
     features: [
       "Ultra-slim design",
@@ -967,7 +968,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Personal Care & Health",
     tags: ["foot spa", "massager", "heat therapy", "agar", "relaxation"],
-    affiliateUrl: "https://amzn.to/4nBgfCz",
+    affiliateUrl: "https://amzn.to/4pRoCer",
     inStock: true,
     features: [
       "Automatic rollers",
@@ -985,7 +986,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Home & Kitchen",
     tags: ["soda maker", "portable", "mocktail", "instacuppa"],
-    affiliateUrl: "https://amzn.to/44fAJcB",
+    affiliateUrl: "https://amzn.to/3KvtBkW",
     inStock: true,
     features: [
       "Portable design",
@@ -1003,7 +1004,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Accessories",
     tags: ["umbrella", "automatic", "foldable", "torch light"],
-    affiliateUrl: "https://amzn.to/3IbMTuw",
+    affiliateUrl: "https://amzn.to/478rjRu",
     inStock: true,
     features: [
       "Automatic open and close",
@@ -1021,7 +1022,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Home & Kitchen",
     tags: ["steam cleaner", "cleaning tool", "kitchen", "grime remover"],
-    affiliateUrl: "https://amzn.to/4nPpyiH",
+    affiliateUrl: "https://amzn.to/48LYueR",
     inStock: true,
     features: [
       "Powerful steam",
