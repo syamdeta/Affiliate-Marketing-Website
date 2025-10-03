@@ -43,7 +43,7 @@ export const products: Product[] = [
   "reviews": null,
   "category": "Home Improvement",
   "tags": ["scraper tool", "glue remover", "cleaning tool", "sticker remover", "blades"],
-  "affiliateUrl": "https://amzn.to/4gsIKiO",
+  "affiliateUrl": "https://amzn.to/3IR0aZX",
   "features": [
     "Double-edged scraper design",
     "Includes 15 plastic blades and 15 metal blades",
@@ -62,7 +62,7 @@ export const products: Product[] = [
   "reviews": null,
   "category": "Home Improvement",
   "tags": ["adhesive remover", "cleaner", "sticky residue", "glue remover", "3m"],
-  "affiliateUrl": "https://amzn.to/4poVBq6",
+  "affiliateUrl": "https://amzn.to/4mPXKZA",
   "features": [
     "425g aerosol can",
     "Removes glue, stickers, and tape residue",
@@ -81,7 +81,7 @@ export const products: Product[] = [
   "reviews": null,
   "category": "Home & Kitchen",
   "tags": ["mosquito net", "double bed", "queen-size", "machardani", "bedding", "home decor"],
-  "affiliateUrl": "https://amzn.to/46aXdLm",
+  "affiliateUrl": "https://amzn.to/4mRNSi7",
   "features": [
     "Fits double beds (6 x 6.5 feet)",
     "30 GSM strong and durable net",
@@ -100,7 +100,7 @@ export const products: Product[] = [
   "reviews": null,
   "category": "Home & Kitchen",
   "tags": ["table lamp", "wireless charging", "desk lamp", "LED light", "touch control", "home office"],
-  "affiliateUrl": "https://amzn.to/4nqvEon",
+  "affiliateUrl": "https://amzn.to/4mMSXIq",
   "features": [
     "4-in-1 functionality: lamp, wireless charger, USB port, wall light",
     "Touch-sensitive controls",
@@ -119,7 +119,7 @@ export const products: Product[] = [
   "reviews": null,
   "category": "Home & Kitchen",
   "tags": ["casserole", "insulated", "roti box", "hot pot", "kitchen", "stainless steel"],
-  "affiliateUrl": "https://amzn.to/3HWQBZg",
+  "affiliateUrl": "https://amzn.to/4o6gQvM",
   "features": [
     "2500ml capacity",
     "PU insulated to keep food hot",
@@ -138,7 +138,7 @@ export const products: Product[] = [
   "reviews": null,
   "category": "Electronics",
   "tags": ["fingerprint reader", "biometric scanner", "USB", "password-free", "login", "security"],
-  "affiliateUrl": "https://amzn.to/4m8SJee",
+  "affiliateUrl": "https://amzn.to/3KQgGtM",
   "features": [
     "USB connectivity",
     "Password-free login with biometric security",
@@ -157,7 +157,7 @@ export const products: Product[] = [
   "reviews": null,
   "category": "Home & Kitchen",
   "tags": ["trivet mats", "silicone", "pot holder", "heat resistant", "kitchen", "dining"],
-  "affiliateUrl": "https://amzn.to/3Kalt95",
+  "affiliateUrl": "https://amzn.to/3VN8nkY",
   "features": [
     "Set of 3 silicone mats",
     "High heat resistance",
@@ -176,7 +176,7 @@ export const products: Product[] = [
   "reviews": null,
   "category": "Home & Kitchen",
   "tags": ["food processor", "attachment", "mixer grinder", "coconut scrapper", "kitchen appliance"],
-  "affiliateUrl": "https://amzn.to/3JIz87r",
+  "affiliateUrl": "https://amzn.to/42qrpRL",
   "features": [
     "All-in-one food processing functions",
     "Includes coconut scrapper and various blades",
@@ -195,7 +195,7 @@ export const products: Product[] = [
   "reviews": null,
   "category": "Home & Kitchen",
   "tags": ["towel holder", "punch free", "organizer", "bathroom", "kitchen", "storage"],
-  "affiliateUrl": "https://amzn.to/4gdmYzA",
+  "affiliateUrl": "https://amzn.to/46VLdOr",
   "features": [
     "Punch-free, self-adhesive design",
     "Easy and quick installation",
@@ -214,7 +214,7 @@ export const products: Product[] = [
   "reviews": null,
   "category": "Home & Kitchen",
   "tags": ["soap dispenser", "automatic", "touchless", "foaming", "bathroom", "kitchen"],
-  "affiliateUrl": "https://amzn.to/46l1TzI",
+  "affiliateUrl": "https://amzn.to/42ngEje",
   "features": [
     "Automatic, touchless sensor operation",
     "300ml/10oz capacity",
@@ -233,7 +233,7 @@ export const products: Product[] = [
   "reviews": null,
   "category": "Home & Kitchen",
   "tags": ["key safe", "lock box", "key storage", "combination lock", "security"],
-  "affiliateUrl": "https://amzn.to/47YSdfr",
+  "affiliateUrl": "https://amzn.to/46zklVp",
   "features": [
     "Metal construction for durability",
     "Combination password security lock",
@@ -252,7 +252,7 @@ export const products: Product[] = [
   "reviews": null,
   "category": "Home & Kitchen",
   "tags": ["cookware", "handle", "detachable", "removable", "universal", "kitchen"],
-  "affiliateUrl": "https://amzn.to/41waEEl",
+  "affiliateUrl": "https://amzn.to/4qagVjV",
   "features": [
     "Detachable and removable design",
     "Universal fit for most cookware",
@@ -271,7 +271,7 @@ export const products: Product[] = [
   reviews: null,
   category: "Electronics",
   tags: ["pendrive", "flash drive", "128gb", "4-in-1", "storage"],
-  affiliateUrl: "https://amzn.to/3JJXDRo",
+  affiliateUrl: "https://amzn.to/4pU0cB8",
   features: [
     "128GB storage capacity",
     "4-in-1 interface: Lightning, Micro USB, USB A, Type-C",
@@ -289,7 +289,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Home & Kitchen",
     tags: ["cloth drying stand", "foldable", "laundry"],
-    affiliateUrl: "https://amzn.to/41rL6Iv",
+    affiliateUrl: "https://amzn.to/4mMyR0T",
     features: [
       "3-way folding design",
       "17 drying rails",
@@ -308,7 +308,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Electronics",
     tags: ["cleaning kit", "gadget", "electronics", "accessories"],
-    affiliateUrl: "https://amzn.to/4lPTdpm",
+    affiliateUrl: "https://amzn.to/4gSIVUA",
     features: [
       "19 different tools",
       "For smartphones, tablets, laptops, earbuds",
@@ -326,7 +326,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Office & School Supplies",
     tags: ["stapler", "paper clamps", "office", "school"],
-    affiliateUrl: "https://amzn.to/3HV3yCE",
+    affiliateUrl: "https://amzn.to/42XIP8z",
     features: [
       "2-pack mini staplers",
       "Includes 100 reusable clips",
@@ -344,7 +344,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Office & School Supplies",
     tags: ["file folder", "document organizer", "amazon basics"],
-    affiliateUrl: "https://amzn.to/4lQDVAX",
+    affiliateUrl: "https://amzn.to/3IsoOAb",
     features: [
       "13 pockets",
       "Fits letter and A4 size documents",
@@ -361,7 +361,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Home & Kitchen",
     tags: ["chopper", "electric", "kitchen appliance", "meat mincer"],
-    affiliateUrl: "https://amzn.to/3JRwtYQ",
+    affiliateUrl: "https://amzn.to/3IU6sIi",
     features: [
       "2-litre stainless steel bowl",
       "300W powerful motor",
@@ -379,7 +379,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Electronics",
     tags: ["tv screen guard", "acrylic", "tv accessories", "screen protector"],
-    affiliateUrl: "https://amzn.to/3Vhghmb",
+    affiliateUrl: "https://amzn.to/4mLGN2i",
     features: [
       "For 24 inch TVs",
       "3mm acrylic material",
@@ -398,7 +398,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Electronics",
     tags: ["monitor light", "screen bar", "led lamp", "desk accessories"],
-    affiliateUrl: "https://amzn.to/4mxUmU3",
+    affiliateUrl: "https://amzn.to/3WmiXPW",
     features: [
       "13-inch size",
       "Smart touch sensor",
@@ -417,7 +417,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Personal Care & Health",
     tags: ["manicure set", "grooming kit", "pedicure", "travel case"],
-    affiliateUrl: "https://amzn.to/3ULAO27",
+    affiliateUrl: "https://amzn.to/4pZYmyL",
     inStock: true,
     features: [
       "12 pieces in one set",
@@ -435,7 +435,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Personal Care & Health",
     tags: ["foot scrubber", "callus remover", "pedicure", "dead skin"],
-    affiliateUrl: "https://amzn.to/3JPCHs8",
+    affiliateUrl: "https://amzn.to/478pGmQ",
     inStock: true,
     features: [
       "Electronic foot scrubber",
@@ -453,7 +453,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Home & Kitchen",
     tags: ["soap dispenser", "kitchen organizer", "dishwashing"],
-    affiliateUrl: "https://amzn.to/4fRb7Hc",
+    affiliateUrl: "https://amzn.to/432hmCB",
     inStock: true,
     features: [
       "2-in-1 design",
@@ -471,7 +471,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Home & Kitchen",
     tags: ["electric brush", "cleaning tool", "bosch", "rechargeable"],
-    affiliateUrl: "https://amzn.to/41ibxjM",
+    affiliateUrl: "https://amzn.to/48RDu6m",
     inStock: true,
     features: [
       "Cordless and rechargeable",
@@ -489,7 +489,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Electronics",
     tags: ["thermal printer", "bluetooth", "portable", "label printer"],
-    affiliateUrl: "https://amzn.to/3HEFILp",
+    affiliateUrl: "https://amzn.to/4nZJtKP",
     inStock: true,
     features: [
       "Mini portable design",
@@ -508,7 +508,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Accessories",
     tags: ["phone stand", "flexible", "tabletop", "lazy bracket"],
-    affiliateUrl: "https://amzn.to/4mL2Si3",
+    affiliateUrl: "https://amzn.to/432Ir8K",
     inStock: true,
     features: [
       "Flexible and foldable",
@@ -527,7 +527,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Personal Care & Health",
     tags: ["massager", "percussion gun", "muscle relief", "rechargeable"],
-    affiliateUrl: "https://amzn.to/4ltVPcA",
+    affiliateUrl: "https://amzn.to/4nz5Hnj",
     inStock: true,
     features: [
       "5 speed settings",
@@ -546,7 +546,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Electronics",
     tags: ["wireless charger", "bluetooth speaker", "makeup mirror", "3-in-1"],
-    affiliateUrl: "https://amzn.to/3UlPXqH",
+    affiliateUrl: "https://amzn.to/3IORNht",
     inStock: true,
     features: [
       "15W wireless charging",
@@ -565,7 +565,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Personal Care & Health",
     tags: ["heating pad", "cramp relief", "massager", "menstrual pain"],
-    affiliateUrl: "https://amzn.to/4lfpV3v",
+    affiliateUrl: "https://amzn.to/46OM8jp",
     inStock: true,
     features: [
       "Portable and cordless",
@@ -584,7 +584,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Electronics",
     tags: ["power bank", "fast charging", "type c", "portable charger"],
-    affiliateUrl: "https://amzn.to/4mrdzpU",
+    affiliateUrl: "https://amzn.to/48HZe4D",
     inStock: true,
     features: [
       "5000mAh capacity",
@@ -602,7 +602,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Electronics",
     tags: ["smartwatch", "fitness tracker", "bluetooth calling"],
-    affiliateUrl: "https://amzn.to/47lJsf7",
+    affiliateUrl: "https://amzn.to/3INM9fy",
     inStock: true,
     features: [
       "1.39 inch HD display",
@@ -621,7 +621,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Home & Kitchen",
     tags: ["alarm clock", "vintage", "twin bell", "silent movement"],
-    affiliateUrl: "https://amzn.to/4m5r5j0",
+    affiliateUrl: "https://amzn.to/4mQ4VkH",
     inStock: true,
     features: [
       "Vintage twin bell design",
@@ -639,7 +639,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Home & Kitchen",
     tags: ["doorbell", "wireless", "waterproof", "home security"],
-    affiliateUrl: "https://amzn.to/3UwxpnT",
+    affiliateUrl: "https://amzn.to/4mI5IUx",
     inStock: true,
     features: [
       "Waterproof design",
@@ -658,7 +658,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Home & Kitchen",
     tags: ["water dispenser", "electric pump", "rechargeable", "bottle pump"],
-    affiliateUrl: "https://amzn.to/4oAcApp",
+    affiliateUrl: "https://amzn.to/433u04j",
     inStock: true,
     features: [
       "Automatic pump",
@@ -677,7 +677,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Home & Kitchen",
     tags: ["electric kettle", "portable", "travel", "water boiler"],
-    affiliateUrl: "https://amzn.to/40Mz5x0",
+    affiliateUrl: "https://amzn.to/42qEBpU",
     inStock: true,
     features: [
       "Portable and compact",
@@ -696,7 +696,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Accessories",
     tags: ["cable organizer", "cable sleeve", "cord protector", "home"],
-    affiliateUrl: "https://amzn.to/45nt4cA",
+    affiliateUrl: "https://amzn.to/4gTjnXr",
     inStock: true,
     features: [
       "1.5 meter length",
@@ -714,7 +714,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Personal Care & Health",
     tags: ["hair brush", "hot air brush", "hair dryer", "straightener"],
-    affiliateUrl: "https://amzn.to/3H2GZvm",
+    affiliateUrl: "https://amzn.to/3INLWcg",
     inStock: true,
     features: [
       "3-in-1 functionality",
@@ -732,7 +732,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Home & Kitchen",
     tags: ["electric kettle", "multi cooker", "ceramic coating", "hostel"],
-    affiliateUrl: "https://amzn.to/3IHg34Y",
+    affiliateUrl: "https://amzn.to/4gSLyWL",
     inStock: true,
     features: [
       "1.2L capacity",
@@ -751,7 +751,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Home & Kitchen",
     tags: ["ultrasonic cleaner", "jewelry cleaner", "glasses", "watch cleaner"],
-    affiliateUrl: "https://amzn.to/4nZcW8n",
+    affiliateUrl: "https://amzn.to/4nzf1aM",
     inStock: true,
     features: [
       "Ultrasonic technology",
@@ -769,7 +769,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Personal Care & Health",
     tags: ["head massager", "scalp massager", "rechargeable", "hair growth"],
-    affiliateUrl: "https://amzn.to/4ly8Q5C",
+    affiliateUrl: "https://amzn.to/4pTUYoP",
     inStock: true,
     features: [
       "Rechargeable",
@@ -787,7 +787,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Electronics",
     tags: ["smart ring", "boAt", "health monitor", "wearable tech"],
-    affiliateUrl: "https://amzn.to/4f1NLhB",
+    affiliateUrl: "https://amzn.to/4pJqA0m",
     inStock: true,
     features: [
       "Auto heart rate monitor",
@@ -806,7 +806,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Automotive",
     tags: ["gps tracker", "bike security", "hero", "live tracking"],
-    affiliateUrl: "https://amzn.to/3GSFGPw",
+    affiliateUrl: "https://amzn.to/42qsmcN",
     inStock: true,
     features: [
       "Live location tracking",
@@ -824,7 +824,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Home & Kitchen",
     tags: ["clothes warmer", "portable heater", "ptc heating", "laundry"],
-    affiliateUrl: "https://amzn.to/4eUMFUA",
+    affiliateUrl: "https://amzn.to/488HUpl",
     inStock: true,
     features: [
       "Mini portable design",
@@ -842,7 +842,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Electronics",
     tags: ["power bank", "ambrane", "50000mah", "fast charging", "travel"],
-    affiliateUrl: "https://amzn.to/44ydg6F",
+    affiliateUrl: "https://amzn.to/46JlQ3D",
     inStock: true,
     features: [
       "50000mAh capacity",
@@ -877,7 +877,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Home & Kitchen",
     tags: ["emergency light", "wipro", "rechargeable", "led light"],
-    affiliateUrl: "https://amzn.to/4f3zu49",
+    affiliateUrl: "https://amzn.to/3Ku6zuN",
     inStock: true,
     features: [
       "Multifunctional",
@@ -895,7 +895,7 @@ export const products: Product[] = [
     reviews: null,
     category: "Home & Kitchen",
     tags: ["smart pot", "pressure cooker", "nutricook", "stainless steel"],
-    affiliateUrl: "https://amzn.to/4eKYxc3",
+    affiliateUrl: "https://amzn.to/46zSwMT",
     inStock: true,
     features: [
       "Stainless steel construction",
