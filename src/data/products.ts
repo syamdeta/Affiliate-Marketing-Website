@@ -17,6 +17,44 @@ export interface Product {
 
 export const products: Product[] = [
 {
+  "id": "57",
+  "name": "ANB Enterprise Shirt Folding Board",
+  "description": "An adjustable clothes folder board (black) designed for fast and easy laundry folding. This 'Fold and Flip' tool helps quickly organize shirts, T-shirts, and other garments into neat, uniform piles, saving time and simplifying laundry chores.",
+  "image": "https://m.media-amazon.com/images/I/51poRMQcf6L.jpg",
+  "rating": 4.2,
+  "reviews": null,
+  "category": "Home & Kitchen",
+  "tags": ["shirt folder", "laundry tool", "clothes folder", "organizer", "home organization"],
+  "affiliateUrl": "https://amzn.to/3ITfc1m",
+  "features": [
+    "Fast and easy 'Fold and Flip' operation",
+    "Adjustable to accommodate different sizes",
+    "Simplifies laundry organization",
+    "Durable plastic construction",
+    "Saves time during folding"
+  ],
+  "inStock": true
+},
+{
+  "id": "56",
+  "name": "AGATHA Silicone Washer Balls",
+  "description": "A set of 12 reusable, tangle-free, and eco-friendly silicone scrubbing balls designed to enhance your washing machine's cleaning power. These solid, colorful (Checkered) laundry balls help scrub clothes, reduce tangling, and soften fabrics during the wash cycle.",
+  "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/48468b3b-530c-40a7-9d06-337dbeebcb05.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+  "rating": 4.1,
+  "reviews": null,
+  "category": "Home & Kitchen",
+  "tags": ["washer balls", "laundry", "silicone", "eco-friendly", "cleaning", "washing machine"],
+  "affiliateUrl": "https://amzn.to/46W6jw7",
+  "features": [
+    "Set of 12 reusable silicone balls",
+    "Tangle-free laundry experience",
+    "Enhances machine cleaning power",
+    "Eco-friendly and durable",
+    "Checkered design"
+  ],
+  "inStock": true
+},
+{
   "id": "55",
   "name": "TEKCOOL Portable Mini Sealing Machine",
   "description": "A handheld, portable mini sealing machine designed to quickly and easily seal plastic bags for food, snacks, and chips, ensuring fresh storage. This packet sealer is perfect for kitchen use and comes with a 1-year warranty.",
