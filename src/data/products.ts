@@ -17,6 +17,25 @@ export interface Product {
 
 export const products: Product[] = [
 {
+  "id": "58",
+  "name": "YOURKARTS.COM 5-in-1 Car Support Handle with Window Breaker",
+  "description": "A versatile 5-in-1 car safety tool designed to assist seniors and those with mobility issues in getting into and out of the car easily. This easy-grip seat assist bar also functions as an emergency tool, featuring a built-in window breaker, seatbelt cutter, and flashlight, making it an essential car accessory.",
+  "image": "https://m.media-amazon.com/images/I/51ycmOGwt1L._UF1000,1000_QL80_FMwebp_.jpg",
+  "rating": 4.4,
+  "reviews": null,
+  "category": "Automotive",
+  "tags": ["car handle", "seat assist", "safety tool", "window breaker", "car accessory", "seniors"],
+  "affiliateUrl": "https://amzn.to/3VKZR61",
+  "features": [
+    "5-in-1 functions: Support handle, window breaker, seatbelt cutter, flashlight, and more",
+    "Provides easy grip for car entry and exit",
+    "Durable and lightweight construction",
+    "Fits securely into the car door latch",
+    "Essential emergency safety tool (Red color)"
+  ],
+  "inStock": true
+},
+{
   "id": "57",
   "name": "ANB Enterprise Shirt Folding Board",
   "description": "An adjustable clothes folder board (black) designed for fast and easy laundry folding. This 'Fold and Flip' tool helps quickly organize shirts, T-shirts, and other garments into neat, uniform piles, saving time and simplifying laundry chores.",
