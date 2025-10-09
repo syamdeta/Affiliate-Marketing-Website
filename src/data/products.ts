@@ -17,6 +17,25 @@ export interface Product {
 
 export const products: Product[] = [
 {
+  "id": "59",
+  "name": "Hoteon Extension Board 5 Meter",
+  "description": "A heavy-duty 5-meter extension cord with a maximum capacity of 2500W and 10A. This expandable power strip features two universal outlets and a 3-pin power cord, making it suitable for extending power access in both home and office environments.",
+  "image": "https://m.media-amazon.com/images/I/61NqQLRlsmL._UF1000,1000_QL80_FMwebp_.jpg",
+  "rating": 4.1,
+  "reviews": null,
+  "category": "Electronics",
+  "tags": ["extension cord", "power strip", "extension board", "heavy duty", "home office", "5 meter"],
+  "affiliateUrl": "https://amzn.to/3WtOvU9",
+  "features": [
+    "5-meter long wire extension",
+    "2 universal power outlets",
+    "2500W / 10A heavy-duty capacity",
+    "3-pin power cord",
+    "Suitable for home and office use"
+  ],
+  "inStock": true
+},
+{
   "id": "58",
   "name": "YOURKARTS.COM 5-in-1 Car Support Handle with Window Breaker",
   "description": "A versatile 5-in-1 car safety tool designed to assist seniors and those with mobility issues in getting into and out of the car easily. This easy-grip seat assist bar also functions as an emergency tool, featuring a built-in window breaker, seatbelt cutter, and flashlight, making it an essential car accessory.",
