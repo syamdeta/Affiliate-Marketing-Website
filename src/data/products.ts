@@ -17,6 +17,25 @@ export interface Product {
 
 export const products: Product[] = [
 {
+  "id": "60",
+  "name": "Dyazo Laptop Stand Foldable Height Angle Adjustable",
+  "description": "A foldable and height/angle adjustable laptop riser designed for desk use. Compatible with laptops and notebooks up to 15.6 inches (including MacBook, Lenovo, Dell), it features a 360-degree rotating base for flexible viewing and collaborative work, promoting ergonomic posture. (Silver color).",
+  "image": "https://m.media-amazon.com/images/I/61H2NeuN2kL._UF1000,1000_QL80_FMwebp_.jpg",
+  "rating": 4.5,
+  "reviews": null,
+  "category": "Electronics",
+  "tags": ["laptop stand", "laptop riser", "adjustable", "foldable", "ergonomic", "desk accessory"],
+  "affiliateUrl": "https://amzn.to/4ojaI3f",
+  "features": [
+    "Foldable and portable design",
+    "Adjustable height and viewing angle",
+    "360-degree rotating base",
+    "Compatible with laptops up to 15.6 inches",
+    "Promotes ergonomic posture (Silver finish)"
+  ],
+  "inStock": true
+},
+{
   "id": "59",
   "name": "Hoteon Extension Board 5 Meter",
   "description": "A heavy-duty 5-meter extension cord with a maximum capacity of 2500W and 10A. This expandable power strip features two universal outlets and a 3-pin power cord, making it suitable for extending power access in both home and office environments.",
