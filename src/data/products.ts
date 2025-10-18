@@ -17,6 +17,25 @@ export interface Product {
 
 export const products: Product[] = [
 {
+  "id": "61",
+  "name": "YUMUN Stainless Steel Kitchen Sink Organizer Rack",
+  "description": "A rustproof stainless steel organizer rack for the kitchen sink, offering dual-use as a wall-mounted unit (with 4 adhesive stickers) or a countertop stand. It includes a drain tray and provides dedicated storage for sponges, soap, bottles, and dishcloths, keeping the sink area neat and dry.",
+  "image": "https://m.media-amazon.com/images/I/81vXRb5R1JL._AC_UF1000,1000_QL80_FMwebp_.jpg",
+  "rating": 4.2,
+  "reviews": null,
+  "category": "Home & Kitchen",
+  "tags": ["sink organizer", "kitchen storage", "stainless steel", "drain tray", "sponge holder", "wall mounted"],
+  "affiliateUrl": "https://amzn.to/49a7KcW",
+  "features": [
+    "Rustproof stainless steel construction",
+    "Wall-mounted (with adhesive stickers) or countertop use",
+    "Includes a removable drain tray",
+    "Storage for sponge, soap, cloth, and more",
+    "Keeps sink area organized and dry"
+  ],
+  "inStock": true
+},
+{
   "id": "60",
   "name": "Dyazo Laptop Stand Foldable Height Angle Adjustable",
   "description": "A foldable and height/angle adjustable laptop riser designed for desk use. Compatible with laptops and notebooks up to 15.6 inches (including MacBook, Lenovo, Dell), it features a 360-degree rotating base for flexible viewing and collaborative work, promoting ergonomic posture. (Silver color).",
