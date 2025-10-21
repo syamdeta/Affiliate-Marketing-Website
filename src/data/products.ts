@@ -17,6 +17,44 @@ export interface Product {
 
 export const products: Product[] = [
 {
+  "id": "63",
+  "name": "Kuber Industries Cotton Dust-Water Proof LPG Gas Cylinder Cover",
+  "description": "A set of two cotton LPG gas cylinder covers (Red & Blue) designed to be dust-proof and water-resistant. These covers help keep the gas cylinder clean, protect it from external elements, and add a tidy look to the kitchen space.",
+  "image": "https://m.media-amazon.com/images/I/61WLUiWQPWL._AC_UF894,1000_QL80_FMwebp_.jpg",
+  "rating": 4.0,
+  "reviews": null,
+  "category": "Home & Kitchen",
+  "tags": ["gas cylinder cover", "kitchen accessory", "dustproof", "waterproof", "cotton", "lpg"],
+  "affiliateUrl": "https://amzn.to/3IYVT74",
+  "features": [
+    "Set of 2 covers (Red & Blue)",
+    "Made from cotton material",
+    "Dust and water-resistant",
+    "Keeps cylinder clean and protected",
+    "Adds aesthetic appeal to the cylinder area"
+  ],
+  "inStock": true
+},
+{
+  "id": "62",
+  "name": "Xplore Heavy Duty Metal Gas Cylinder Trolley",
+  "description": "A heavy-duty metal trolley designed for easy movement of LPG gas cylinders in the kitchen. It features smooth-rolling wheels and a robust handle for effortless pickup, carrying, and transfer, reducing strain during cylinder changes. (Black color).",
+  "image": "https://m.media-amazon.com/images/I/91yu6bJ6r+L._AC_SL1500_.jpg",
+  "rating": 4.1,
+  "reviews": null,
+  "category": "Home & Kitchen",
+  "tags": ["gas cylinder trolley", "kitchen storage", "lpg cylinder stand", "heavy duty", "wheels", "movement"],
+  "affiliateUrl": "https://amzn.to/47ngVV2",
+  "features": [
+    "Heavy-duty metal construction",
+    "Equipped with wheels for easy movement",
+    "Integrated handle for better grip and pickup",
+    "Suitable for standard LPG kitchen cylinders",
+    "Durable and built for everyday use"
+  ],
+  "inStock": true
+},
+{
   "id": "61",
   "name": "YUMUN Stainless Steel Kitchen Sink Organizer Rack",
   "description": "A rustproof stainless steel organizer rack for the kitchen sink, offering dual-use as a wall-mounted unit (with 4 adhesive stickers) or a countertop stand. It includes a drain tray and provides dedicated storage for sponges, soap, bottles, and dishcloths, keeping the sink area neat and dry.",
