@@ -17,6 +17,25 @@ export interface Product {
 
 export const products: Product[] = [
 {
+  "id": "64",
+  "name": "Stuffcool Quad Pro 4 in 1 Metal Flat Braided Indestructible Cable",
+  "description": "A versatile and durable 1.5-meter 'Quad Pro' 4-in-1 charging cable with 60W power delivery. It features a metal flat braided design and offers multiple connector combinations (Lightning to Type-C, Type-C to Type-C, Lightning to Type-A), making it compatible with iPhones, iPads, MacBooks, and various Type-C laptops and devices. (Grey color).",
+  "image": "https://m.media-amazon.com/images/I/81X0lGczwIL._AC_UF1000,1000_QL80_FMwebp_.jpg",
+  "rating": 4.3,
+  "reviews": null,
+  "category": "Electronics",
+  "tags": ["charging cable", "4-in-1", "type-c", "lightning", "braided cable", "60w"],
+  "affiliateUrl": "https://amzn.to/3Wg5lpB",
+  "features": [
+    "4-in-1 connector versatility",
+    "1.5 meter length",
+    "60W Power Delivery support",
+    "Metal flat braided 'indestructible' design",
+    "Compatible with iOS and Type-C devices"
+  ],
+  "inStock": true
+},
+{
   "id": "63",
   "name": "Kuber Industries Cotton Dust-Water Proof LPG Gas Cylinder Cover",
   "description": "A set of two cotton LPG gas cylinder covers (Red & Blue) designed to be dust-proof and water-resistant. These covers help keep the gas cylinder clean, protect it from external elements, and add a tidy look to the kitchen space.",
