@@ -17,6 +17,44 @@ export interface Product {
 
 export const products: Product[] = [
 {
+  "id": "66",
+  "name": "MEEDRO Stainless Steel Multipurpose Funnel With Detachable Strainer",
+  "description": "A 13 CM stainless steel multipurpose funnel featuring a detachable strainer. This metal funnel is designed for efficiently filling bottles and transferring various essential oils, liquids, fluids, dry ingredients, and powders in the kitchen.",
+  "image": "https://m.media-amazon.com/images/I/610XRsw7ilL._AC_UF1000,1000_QL80_FMwebp_.jpg",
+  "rating": 4.0,
+  "reviews": null,
+  "category": "Home & Kitchen",
+  "tags": ["funnel", "stainless steel", "strainer", "kitchen tool", "multipurpose", "oil transfer"],
+  "affiliateUrl": "https://amzn.to/3WuxN7f",
+  "features": [
+    "13 CM size",
+    "Stainless steel construction",
+    "Detachable strainer for filtering",
+    "Multipurpose use for liquids and dry ingredients",
+    "Easy to clean and rust-resistant"
+  ],
+  "inStock": true
+},
+{
+  "id": "65",
+  "name": "Curated Cart 3pcs Canning Funnel Set",
+  "description": "A set of three stainless steel canning funnels from CURATED CART, designed for both wide-mouth and regular mason jars. The set includes a strainer and is ideal for cleanly filling bottles with various items like oil, powder, jam, and grains in the kitchen.",
+  "image": "https://m.media-amazon.com/images/I/71-wxQb0eZL._AC_SL1500_.jpg",
+  "rating": 4.0,
+  "reviews": 1,
+  "category": "Home & Kitchen",
+  "tags": ["canning funnel", "mason jars", "stainless steel", "kitchen tool", "funnel set", "strainer"],
+  "affiliateUrl": "https://amzn.to/47ftlQ1",
+  "features": [
+    "Set of 3 funnels",
+    "Fits wide mouth and regular mason jars",
+    "Includes detachable strainer",
+    "Made of stainless steel",
+    "Suitable for liquids, powders, jams, and grains"
+  ],
+  "inStock": true
+},
+{
   "id": "64",
   "name": "Stuffcool Quad Pro 4 in 1 Metal Flat Braided Indestructible Cable",
   "description": "A versatile and durable 1.5-meter 'Quad Pro' 4-in-1 charging cable with 60W power delivery. It features a metal flat braided design and offers multiple connector combinations (Lightning to Type-C, Type-C to Type-C, Lightning to Type-A), making it compatible with iPhones, iPads, MacBooks, and various Type-C laptops and devices. (Grey color).",
