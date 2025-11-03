@@ -17,6 +17,25 @@ export interface Product {
 
 export const products: Product[] = [
 {
+  "id": "67",
+  "name": "Lifelong Adjustable Dumbbells Set (2.5kg to 12.5kg)",
+  "description": "An adjustable dumbbells set (LLAD02) for men and women, ideal as home gym equipment for fitness and home workouts. The set allows for easy weight adjustment from 2.5kg up to 12.5kg, offering a versatile solution to replace multiple fixed-weight dumbbells. (Black, Iron construction).",
+  "image": "https://m.media-amazon.com/images/I/61v1qbflxoL._AC_UF894,1000_QL80_FMwebp_.jpg",
+  "rating": 4.4,
+  "reviews": null,
+  "category": "Sports, Fitness & Outdoors",
+  "tags": ["adjustable dumbbells", "home gym", "fitness equipment", "workout", "weight training", "lifelong"],
+  "affiliateUrl": "https://amzn.to/3XeVhgN",
+  "features": [
+    "Easy and quick weight adjustment mechanism",
+    "Weight range: 2.5kg to 12.5kg",
+    "Space-saving design (replaces multiple dumbbells)",
+    "Suitable for men and women",
+    "Durable iron construction"
+  ],
+  "inStock": true
+},
+{
   "id": "66",
   "name": "MEEDRO Stainless Steel Multipurpose Funnel With Detachable Strainer",
   "description": "A 13 CM stainless steel multipurpose funnel featuring a detachable strainer. This metal funnel is designed for efficiently filling bottles and transferring various essential oils, liquids, fluids, dry ingredients, and powders in the kitchen.",
