@@ -17,6 +17,25 @@ export interface Product {
 
 export const products: Product[] = [
 {
+  "id": "68",
+  "name": "Dyazo Mobile Cooler / Gaming Fan",
+  "description": "A mobile cooling pad designed for instant cooling of smartphones during gaming or heavy use. It features an advanced refrigeration chip and an LED temperature display, making it compatible with both Android and iPhones. The cooler prevents overheating to maintain peak performance (Black color).",
+  "image": "https://m.media-amazon.com/images/I/71bchLw2y-L._AC_SL1500_.jpg",
+  "rating": 4.2,
+  "reviews": null,
+  "category": "Electronics",
+  "tags": ["mobile cooler", "gaming fan", "cooling pad", "smartphone accessory", "refrigeration chip", "android", "iphone"],
+  "affiliateUrl": "https://amzn.to/4nIc9HE",
+  "features": [
+    "Instant cooling with advanced refrigeration chip",
+    "LED temperature display",
+    "Compatible with Android and iPhones",
+    "Designed for gaming and heavy-duty use",
+    "Compact and lightweight (Black)"
+  ],
+  "inStock": true
+},
+{
   "id": "67",
   "name": "Lifelong Adjustable Dumbbells Set (2.5kg to 12.5kg)",
   "description": "An adjustable dumbbells set (LLAD02) for men and women, ideal as home gym equipment for fitness and home workouts. The set allows for easy weight adjustment from 2.5kg up to 12.5kg, offering a versatile solution to replace multiple fixed-weight dumbbells. (Black, Iron construction).",
