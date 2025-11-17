@@ -17,6 +17,26 @@ export interface Product {
 
 export const products: Product[] = [
 {
+  "id": "70",
+  "name": "Black+Decker Cordless Steam Iron",
+  "description": "A powerful 2200W cordless steam iron with a 350ml water tank, featuring a non-stick ceramic soleplate and 30g/min steam output for smooth ironing. It includes safety features like Anti-Drip and Auto Shut-Off, making it convenient and safe for ironing clothes. Comes with a 2-year warranty. (Green color).",
+  "image": "https://m.media-amazon.com/images/I/61h8Xu967oL._AC_UF894,1000_QL80_FMwebp_.jpg",
+  "rating": 4.4,
+  "reviews": null,
+  "category": "Home & Kitchen",
+  "tags": ["steam iron", "cordless", "iron box", "steam press", "anti-drip", "auto shut off"],
+  "affiliateUrl": "https://amzn.to/43y2nkn",
+  "features": [
+    "2200W power with 30g/min steam output",
+    "Cordless design for unrestricted movement",
+    "350ml water tank capacity",
+    "Non-stick ceramic soleplate",
+    "Anti-Drip and Auto Shut-Off safety features",
+    "2-year warranty"
+  ],
+  "inStock": true
+},
+{
   "id": "68",
   "name": "Dyazo Mobile Cooler / Gaming Fan",
   "description": "A mobile cooling pad designed for instant cooling of smartphones during gaming or heavy use. It features an advanced refrigeration chip and an LED temperature display, making it compatible with both Android and iPhones. The cooler prevents overheating to maintain peak performance (Black color).",
