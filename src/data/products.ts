@@ -17,6 +17,26 @@ export interface Product {
 
 export const products: Product[] = [
 {
+  "id": "71",
+  "name": "PTron Dynamo Rush 10000mAh 22.5W Nano Power Bank",
+  "description": "A compact and portable 10000mAh power bank (Dynamo Rush) that supports 22.5W fast charging. It is compatible with various fast-charging protocols including VOOC/Wrap/Dash and offers 20W PD fast charging. Features a USB Type-C input cable, two output ports, and is BIS certified (Black color).",
+  "image": "https://m.media-amazon.com/images/I/6145hhE5DRL._AC_UF1000,1000_QL80_FMwebp_.jpg",
+  "rating": 4.1,
+  "reviews": null,
+  "category": "Electronics",
+  "tags": ["power bank", "10000mAh", "fast charging", "22.5W", "PD charging", "portable", "type-c"],
+  "affiliateUrl": "https://amzn.to/3XCxwzx",
+  "features": [
+    "10000mAh capacity",
+    "22.5W fast charging support",
+    "20W PD fast charging",
+    "Supports VOOC/Wrap/Dash protocols",
+    "USB Type-C input cable and 2 output ports",
+    "Compact 'Nano' size and BIS certified"
+  ],
+  "inStock": true
+},
+{
   "id": "70",
   "name": "Black+Decker Cordless Steam Iron",
   "description": "A powerful 2200W cordless steam iron with a 350ml water tank, featuring a non-stick ceramic soleplate and 30g/min steam output for smooth ironing. It includes safety features like Anti-Drip and Auto Shut-Off, making it convenient and safe for ironing clothes. Comes with a 2-year warranty. (Green color).",
