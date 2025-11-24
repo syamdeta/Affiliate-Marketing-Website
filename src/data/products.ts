@@ -17,6 +17,25 @@ export interface Product {
 
 export const products: Product[] = [
 {
+  "id": "72",
+  "name": "TEX-RO Kitchen Trolley with Wheels (Layer 3)",
+  "description": "A 3-layer metal kitchen trolley with smooth-rolling wheels, designed as a versatile organizer and storage solution for various kitchen items and accessories. Its compact, square design and black finish make it a functional addition to any kitchen space.",
+  "image": "https://m.media-amazon.com/images/I/81zSFh5uwdL._AC_SL1500_.jpg",
+  "rating": 4.0,
+  "reviews": null,
+  "category": "Home & Kitchen",
+  "tags": ["kitchen trolley", "kitchen organizer", "storage solution", "metal", "wheels", "kitchen accessories"],
+  "affiliateUrl": "https://amzn.to/4oQXKua",
+  "features": [
+    "3-layer design for ample storage",
+    "Equipped with wheels for easy movement",
+    "Durable metal construction (Black finish)",
+    "Square, space-saving footprint",
+    "Suitable for storing vegetables, spices, and utensils"
+  ],
+  "inStock": true
+},
+{
   "id": "71",
   "name": "PTron Dynamo Rush 10000mAh 22.5W Nano Power Bank",
   "description": "A compact and portable 10000mAh power bank (Dynamo Rush) that supports 22.5W fast charging. It is compatible with various fast-charging protocols including VOOC/Wrap/Dash and offers 20W PD fast charging. Features a USB Type-C input cable, two output ports, and is BIS certified (Black color).",
