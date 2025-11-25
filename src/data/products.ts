@@ -17,6 +17,25 @@ export interface Product {
 
 export const products: Product[] = [
 {
+  "id": "73",
+  "name": "AGARO Regency Electric Spin Mop",
+  "description": "The AGARO Regency Electric Spin Mop is a cordless, automatic wet mopper designed for efficient floor cleaning. It features an adjustable handle, integrated water sprayer, and a lightweight design, making it suitable for mopping wooden, tile, and hard floors in homes, kitchens, and offices.",
+  "image": "https://m.media-amazon.com/images/I/71b34IlbyCL._AC_SL1500_.jpg",
+  "rating": 4.2,
+  "reviews": null,
+  "category": "Home & Kitchen",
+  "tags": ["electric mop", "spin mop", "floor cleaning", "cordless", "automatic mopper", "wet mop"],
+  "affiliateUrl": "https://amzn.to/49Ek59z",
+  "features": [
+    "Cordless and automatic wet mopping",
+    "Adjustable handle for ergonomic cleaning",
+    "Built-in water sprayer",
+    "Lightweight and easy to maneuver",
+    "Suitable for various hard floor types (wooden, tiles)"
+  ],
+  "inStock": true
+},
+{
   "id": "72",
   "name": "TEX-RO Kitchen Trolley with Wheels (Layer 3)",
   "description": "A 3-layer metal kitchen trolley with smooth-rolling wheels, designed as a versatile organizer and storage solution for various kitchen items and accessories. Its compact, square design and black finish make it a functional addition to any kitchen space.",
