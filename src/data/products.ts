@@ -17,6 +17,26 @@ export interface Product {
 
 export const products: Product[] = [
 {
+  "id": "74",
+  "name": "Halonix 10W Motion Sensor Led Bulb",
+  "description": "A single 10W LED bulb with an integrated motion sensor, providing automatic on/off functionality when movement is detected. It emits a 6500K cool white light and uses a B22D base, ideal for areas like staircases, corridors, and bathrooms for energy-efficient, hands-free lighting.",
+  "image": "https://m.media-amazon.com/images/I/71q6ebbVnbL._AC_SL1500_.jpg",
+  "rating": 4.1,
+  "reviews": null,
+  "category": "Home & Kitchen",
+  "tags": ["motion sensor bulb", "LED light", "auto on-off", "lighting", "b22d", "energy efficient"],
+  "affiliateUrl": "https://amzn.to/48kcqw6",
+  "features": [
+    "10W LED power output",
+    "Built-in motion sensor (Auto On-Auto Off)",
+    "6500K Cool White color temperature",
+    "B22D base type",
+    "Energy-saving and convenient lighting solution",
+    "Pack of 1 bulb"
+  ],
+  "inStock": true
+},
+{
   "id": "73",
   "name": "AGARO Regency Electric Spin Mop",
   "description": "The AGARO Regency Electric Spin Mop is a cordless, automatic wet mopper designed for efficient floor cleaning. It features an adjustable handle, integrated water sprayer, and a lightweight design, making it suitable for mopping wooden, tile, and hard floors in homes, kitchens, and offices.",
